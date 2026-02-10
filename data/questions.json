@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "What is the maximum number of overcurrent devices allowed in a lighting and appliance branch-circuit panelboard?",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": ["42", "overcurrent", "devices", "panelboard"],
+    "correct_answer": "Prior to 2008, NEC 408.35 limited the number of overcurrent devices to 42. This limit has been removed in newer editions, but remains a common technical knowledge point.",
+    "nec_reference": "NEC 408.35 (Historical)"
+  },
+  {
+    "id": 2,
+    "question": "How do you calculate the load for a range in a dwelling unit?",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": ["Table 220.55", "demand factor", "kilowatts", "kW"],
+    "correct_answer": "The load for household electric ranges and other cooking appliances is calculated using NEC Table 220.55.",
+    "nec_reference": "NEC Table 220.55"
+  },
+  {
+    "id": 3,
+    "question": "What is the required clearance in front of electrical equipment?",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": ["3 feet", "36 inches", "working space", "clearance"],
+    "correct_answer": "Generally, a minimum working space depth of 3 feet (36 inches) is required in front of electrical equipment likely to require examination, adjustment, servicing, or maintenance while energized.",
+    "nec_reference": "NEC 110.26(A)(1)"
+  },
+  {
+    "id": 4,
+    "question": "When should you use a megohmmeter?",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": ["insulation", "resistance", "testing", "shorts", "grounds"],
+    "correct_answer": "A megohmmeter (or 'megger') is used to test insulation resistance to identify if it's degraded or if there are shorts/grounds in motors, cables, or transformers.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 5,
+    "question": "What is the primary purpose of a lock-out/tag-out (LOTO) procedure?",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": ["energy", "accidental", "start-up", "isolation", "safety"],
+    "correct_answer": "The primary purpose of LOTO is to prevent the accidental start-up or release of hazardous energy while equipment is being serviced.",
+    "nec_reference": "OSHA 1910.147"
+  },
+  {
+    "id": 6,
+    "question": "What is the standard color for a high-leg conductor in a 4-wire, delta-connected system?",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": ["orange", "high-leg", "delta", "4-wire"],
+    "correct_answer": "The high-leg conductor must be identified by an outer finish that is orange in color or by other effective means.",
+    "nec_reference": "NEC 110.15"
+  },
+  {
+    "id": 7,
+    "question": "How many cubic inches are required for a 12 AWG conductor in a box?",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": ["2.25", "cubic inches", "12 AWG"],
+    "correct_answer": "Each 12 AWG conductor requires 2.25 cubic inches of box volume.",
+    "nec_reference": "NEC Table 314.16(B)"
+  },
+  {
+    "id": 8,
+    "question": "What type of conduit is best for protecting against physical damage?",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": ["RMC", "Rigid", "Heavy", "Steel"],
+    "correct_answer": "Rigid Metal Conduit (RMC) provides the highest level of physical protection for conductors.",
+    "nec_reference": "NEC Article 344"
+  }
+]
