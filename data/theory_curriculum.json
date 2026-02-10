@@ -1,0 +1,304 @@
+{
+  "curriculumTitle": "Electrical Theory Master Curriculum",
+  "version": "1.0.0",
+  "modules": [
+    {
+      "id": "dc-fundamentals",
+      "title": "DC Fundamentals",
+      "description": "Foundational principles of Direct Current circuits and electricity basics.",
+      "topics": [
+        {
+          "id": "atomic-structure",
+          "title": "Atomic Structure and Charge",
+          "learningObjectives": [
+            "Explain the structure of an atom (protons, neutrons, electrons).",
+            "Define electrical charge and the unit of Coulomb.",
+            "Distinguish between conductors, insulators, and semiconductors."
+          ],
+          "contentOutline": [
+            "Atomic particles and their charges",
+            "Valence electrons and conductivity",
+            "Static electricity vs current electricity"
+          ]
+        },
+        {
+          "id": "basic-parameters",
+          "title": "Voltage, Current, and Resistance",
+          "learningObjectives": [
+            "Define Voltage as potential difference (Volts).",
+            "Define Current as the flow of electrons (Amperes).",
+            "Define Resistance as the opposition to flow (Ohms)."
+          ],
+          "contentOutline": [
+            "Units of measurement and symbols",
+            "Conventional flow vs Electron flow",
+            "Factors affecting resistance (length, area, material, temperature)"
+          ]
+        },
+        {
+          "id": "ohms-law-power",
+          "title": "Ohm's Law and DC Power",
+          "learningObjectives": [
+            "Apply Ohm's Law (V=IR) to solve circuit problems.",
+            "Calculate Power (Watts) in DC circuits using multiple formulas.",
+            "Understand the relationship between work, energy, and power."
+          ],
+          "contentOutline": [
+            "Ohm's Law wheel and calculations",
+            "Power formulas: P=VI, P=I²R, P=V²/R",
+            "Energy consumption (kWh) calculations"
+          ]
+        },
+        {
+          "id": "dc-circuits",
+          "title": "Series and Parallel Circuits",
+          "learningObjectives": [
+            "Analyze characteristics of series circuits (current, voltage, resistance).",
+            "Analyze characteristics of parallel circuits (current, voltage, resistance).",
+            "Solve complex combination (series-parallel) circuits."
+          ],
+          "contentOutline": [
+            "Kirchhoff's Voltage Law (KVL) in series",
+            "Kirchhoff's Current Law (KCL) in parallel",
+            "Equivalent resistance formulas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ac-fundamentals",
+      "title": "AC Fundamentals",
+      "description": "Understanding Alternating Current, waveforms, and reactive components.",
+      "topics": [
+        {
+          "id": "ac-generation",
+          "title": "AC Generation and Sine Waves",
+          "learningObjectives": [
+            "Describe how AC is generated through induction.",
+            "Identify components of a sine wave (amplitude, period, frequency).",
+            "Calculate frequency and angular velocity."
+          ],
+          "contentOutline": [
+            "Electromagnetic induction principles",
+            "Sine wave characteristics: Peak, RMS, Average",
+            "Frequency (Hz) and Period (T) relationship"
+          ]
+        },
+        {
+          "id": "reactance-impedance",
+          "title": "Inductance, Capacitance, and Impedance",
+          "learningObjectives": [
+            "Explain Inductive Reactance (XL) and its effect in AC.",
+            "Explain Capacitive Reactance (XC) and its effect in AC.",
+            "Calculate total Impedance (Z) in RLC circuits."
+          ],
+          "contentOutline": [
+            "Inductors and phase shift (ELI)",
+            "Capacitors and phase shift (ICE)",
+            "Phasor diagrams and vector addition"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-systems",
+      "title": "Power (Single/Three-Phase)",
+      "description": "Analyzing power in single-phase and three-phase systems.",
+      "topics": [
+        {
+          "id": "power-triangle",
+          "title": "The Power Triangle",
+          "learningObjectives": [
+            "Differentiate between Real, Reactive, and Apparent power.",
+            "Calculate values using the Power Triangle (W, VAR, VA)."
+          ],
+          "contentOutline": [
+            "Real Power (Watts)",
+            "Reactive Power (VARs)",
+            "Apparent Power (VA)",
+            "Pythagorean theorem in power calculations"
+          ]
+        },
+        {
+          "id": "three-phase-systems",
+          "title": "Three-Phase Principles",
+          "learningObjectives": [
+            "Explain the advantages of three-phase power over single-phase.",
+            "Calculate Line vs Phase voltages and currents in Wye and Delta."
+          ],
+          "contentOutline": [
+            "Wye (Star) connections and Neutral",
+            "Delta (Mesh) connections",
+            "Voltage/Current relationships: sqrt(3) factor",
+            "Three-phase power formulas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transformers",
+      "title": "Transformers",
+      "description": "Principles, types, and calculations for electrical transformers.",
+      "topics": [
+        {
+          "id": "transformer-principles",
+          "title": "Mutual Induction and Ratios",
+          "learningObjectives": [
+            "Explain how transformers transfer energy via mutual induction.",
+            "Calculate Turns, Voltage, and Current ratios."
+          ],
+          "contentOutline": [
+            "Primary and Secondary windings",
+            "Core types and magnetic flux",
+            "Transformer ratio equations"
+          ]
+        },
+        {
+          "id": "transformer-types-losses",
+          "title": "Types and Efficiency",
+          "learningObjectives": [
+            "Identify common transformer types (Isolation, Auto, Step-up/down).",
+            "List common transformer losses and their causes."
+          ],
+          "contentOutline": [
+            "Copper losses (I²R)",
+            "Core losses (Hysteresis and Eddy current)",
+            "Three-phase transformer banks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "motors",
+      "title": "Electric Motors",
+      "description": "Operational theory of DC and AC motors.",
+      "topics": [
+        {
+          "id": "motor-fundamentals",
+          "title": "Motor Operating Principles",
+          "learningObjectives": [
+            "Explain the interaction of magnetic fields to produce torque.",
+            "Identify major motor components."
+          ],
+          "contentOutline": [
+            "Lorentz Force law",
+            "Stator and Rotor functions",
+            "Commutation and slip concepts"
+          ]
+        },
+        {
+          "id": "ac-dc-motors",
+          "title": "AC and DC Motor Types",
+          "learningObjectives": [
+            "Compare Squirrel Cage vs Wound Rotor induction motors.",
+            "Explain characteristics of DC series, shunt, and compound motors."
+          ],
+          "contentOutline": [
+            "Single-phase vs Three-phase motors",
+            "Synchronous motors",
+            "Starting methods and torque characteristics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-factor",
+      "title": "Power Factor",
+      "description": "Understanding and improving electrical system efficiency.",
+      "topics": [
+        {
+          "id": "pf-concepts",
+          "title": "Power Factor Theory",
+          "learningObjectives": [
+            "Define Power Factor as the ratio of Real to Apparent power.",
+            "Identify causes of low power factor in industrial settings."
+          ],
+          "contentOutline": [
+            "Lagging vs Leading power factor",
+            "Phase angle and Cosine(phi)",
+            "Impact on utility costs and equipment sizing"
+          ]
+        },
+        {
+          "id": "pf-correction",
+          "title": "Power Factor Correction",
+          "learningObjectives": [
+            "Calculate the required KVAR to improve power factor.",
+            "Describe the use of capacitor banks for correction."
+          ],
+          "contentOutline": [
+            "Sizing capacitors",
+            "Placement of correction equipment",
+            "Synchronous condensers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "harmonics",
+      "title": "Harmonics",
+      "description": "Dealing with non-linear loads and power quality issues.",
+      "topics": [
+        {
+          "id": "harmonic-sources",
+          "title": "Sources of Harmonics",
+          "learningObjectives": [
+            "Distinguish between linear and non-linear loads.",
+            "Identify common harmonic-generating equipment (VFDs, Rectifiers)."
+          ],
+          "contentOutline": [
+            "Switch-mode power supplies",
+            "Variable Frequency Drives",
+            "Electronic ballasts"
+          ]
+        },
+        {
+          "id": "harmonic-effects",
+          "title": "Effects and Mitigation",
+          "learningObjectives": [
+            "Explain the impact of triplen harmonics on neutral conductors.",
+            "Describe techniques for harmonic mitigation."
+          ],
+          "contentOutline": [
+            "Neutral overheating",
+            "Transformer derating (K-factor)",
+            "Passive and Active harmonic filters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grounding-theory",
+      "title": "Grounding and Bonding Theory",
+      "description": "Safety and protection through effective grounding systems.",
+      "topics": [
+        {
+          "id": "grounding-vs-bonding",
+          "title": "Grounding vs Bonding",
+          "learningObjectives": [
+            "Define the difference between grounding (earth) and bonding (continuity).",
+            "Explain the purpose of an Effective Ground-Fault Current Path (EGFCP)."
+          ],
+          "contentOutline": [
+            "System grounding vs Equipment grounding",
+            "Shock protection principles",
+            "NEC definitions"
+          ]
+        },
+        {
+          "id": "grounding-systems",
+          "title": "Grounding Electrode Systems",
+          "learningObjectives": [
+            "Identify common grounding electrodes (rods, plates, ufer).",
+            "Describe methods for testing earth resistance."
+          ],
+          "contentOutline": [
+            "Grounding electrode conductors",
+            "Main bonding jumpers",
+            "Fall-of-potential testing"
+          ]
+        }
+      ]
+    }
+  ]
+}
