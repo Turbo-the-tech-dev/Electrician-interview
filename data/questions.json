@@ -1,0 +1,6078 @@
+[
+  {
+    "id": 1,
+    "question": "What is the required working space depth for equipment operating at 480V to ground with exposed live parts on one side and a grounded wall on the other?",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "3.5 feet",
+      "42 inches",
+      "Condition 2"
+    ],
+    "correct_answer": "For Condition 2 (live parts to grounded surface) between 151-600V, 3.5 feet is required.",
+    "nec_reference": "110.26(A)(1)"
+  },
+  {
+    "id": 2,
+    "question": "How must unused openings in boxes and cabinets be closed?",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "closed",
+      "effectively",
+      "plugs"
+    ],
+    "correct_answer": "Unused openings must be closed by an identified protection device or other effective means.",
+    "nec_reference": "110.12(A)"
+  },
+  {
+    "id": 3,
+    "question": "What is the required minimum headroom for working space about service equipment?",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "6.5 feet",
+      "6 1/2 feet",
+      "78 inches"
+    ],
+    "correct_answer": "The minimum headroom is 6.5 feet (78 inches) or the height of the equipment.",
+    "nec_reference": "110.26(A)(3)"
+  },
+  {
+    "id": 4,
+    "question": "What is the minimum number of 20-amp small-appliance branch circuits required for a dwelling unit kitchen?",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "2",
+      "two"
+    ],
+    "correct_answer": "At least two small-appliance branch circuits are required.",
+    "nec_reference": "210.11(C)(1)"
+  },
+  {
+    "id": 5,
+    "question": "At what distance must a receptacle be installed in a kitchen countertop space?",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "24 inches",
+      "2 feet",
+      "receptacle"
+    ],
+    "correct_answer": "No point along the wall line shall be more than 24 inches from a receptacle outlet.",
+    "nec_reference": "210.52(C)(1)"
+  },
+  {
+    "id": 6,
+    "question": "Are GFCI receptacles required for a bathroom in a dwelling unit?",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "Yes",
+      "required",
+      "GFCI"
+    ],
+    "correct_answer": "Yes, all 125-volt, single-phase, 15- and 20-ampere receptacles in bathrooms must be GFCI protected.",
+    "nec_reference": "210.8(A)(1)"
+  },
+  {
+    "id": 7,
+    "question": "What is the minimum clearance for service-drop conductors over a public driveway?",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "18 feet",
+      "clearance"
+    ],
+    "correct_answer": "Service-drop conductors over public driveways must have a minimum clearance of 18 feet.",
+    "nec_reference": "230.24(B)(4)"
+  },
+  {
+    "id": 8,
+    "question": "How many service disconnects are generally permitted for a single service?",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "6",
+      "six",
+      "grouped"
+    ],
+    "correct_answer": "A service can have up to six disconnects grouped in one location.",
+    "nec_reference": "230.71(A)"
+  },
+  {
+    "id": 9,
+    "question": "What is the minimum size for a concrete-encased electrode (Ufer ground) using copper wire?",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "4 AWG",
+      "copper"
+    ],
+    "correct_answer": "A concrete-encased electrode must use at least 4 AWG copper conductor.",
+    "nec_reference": "250.52(A)(3)"
+  },
+  {
+    "id": 10,
+    "question": "What is the maximum resistance to ground permitted for a single made electrode (rod, pipe, or plate)?",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "25 ohms"
+    ],
+    "correct_answer": "If the resistance exceeds 25 ohms, it must be augmented by an additional electrode.",
+    "nec_reference": "250.53(A)(2)"
+  },
+  {
+    "id": 11,
+    "question": "How many cubic inches of box volume are required for each 6 AWG conductor?",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "5",
+      "cubic inches"
+    ],
+    "correct_answer": "Each 6 AWG conductor requires 5 cubic inches.",
+    "nec_reference": "Table 314.16(B)"
+  },
+  {
+    "id": 12,
+    "question": "How many cubic inches of box volume are required for each 8 AWG conductor?",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "3",
+      "cubic inches"
+    ],
+    "correct_answer": "Each 8 AWG conductor requires 3 cubic inches.",
+    "nec_reference": "Table 314.16(B)"
+  },
+  {
+    "id": 13,
+    "question": "How many cubic inches of box volume are required for each 10 AWG conductor?",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "2.5",
+      "cubic inches"
+    ],
+    "correct_answer": "Each 10 AWG conductor requires 2.5 cubic inches.",
+    "nec_reference": "Table 314.16(B)"
+  },
+  {
+    "id": 14,
+    "question": "How many cubic inches of box volume are required for each 12 AWG conductor?",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "2.25",
+      "cubic inches"
+    ],
+    "correct_answer": "Each 12 AWG conductor requires 2.25 cubic inches.",
+    "nec_reference": "Table 314.16(B)"
+  },
+  {
+    "id": 15,
+    "question": "How many cubic inches of box volume are required for each 14 AWG conductor?",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "2",
+      "cubic inches"
+    ],
+    "correct_answer": "Each 14 AWG conductor requires 2 cubic inches.",
+    "nec_reference": "Table 314.16(B)"
+  },
+  {
+    "id": 16,
+    "question": "What is the maximum distance between supports for a 1-inch EMT run?",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "EMT",
+      "supports",
+      "distance"
+    ],
+    "correct_answer": "Support requirements for EMT are found in the specific Article for that conduit type.",
+    "nec_reference": "NEC Article 358"
+  },
+  {
+    "id": 17,
+    "question": "What is the maximum distance between supports for a 1-inch RMC run?",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "RMC",
+      "supports",
+      "distance"
+    ],
+    "correct_answer": "Support requirements for RMC are found in the specific Article for that conduit type.",
+    "nec_reference": "NEC Article 344"
+  },
+  {
+    "id": 18,
+    "question": "What is the maximum distance between supports for a 1-inch PVC (Schedule 40) run?",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "PVC (Schedule 40)",
+      "supports",
+      "distance"
+    ],
+    "correct_answer": "Support requirements for PVC (Schedule 40) are found in the specific Article for that conduit type.",
+    "nec_reference": "NEC Article 352"
+  },
+  {
+    "id": 19,
+    "question": "What is the maximum distance between supports for a 1-inch LFMC run?",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "LFMC",
+      "supports",
+      "distance"
+    ],
+    "correct_answer": "Support requirements for LFMC are found in the specific Article for that conduit type.",
+    "nec_reference": "NEC Article 350"
+  },
+  {
+    "id": 20,
+    "question": "What is the maximum occupancy for a Class I, Division 1 location? (Ref 0)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "500.5"
+  },
+  {
+    "id": 21,
+    "question": "Can a neutral conductor be used as a grounding conductor downstream of the service? (Ref 1)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.142"
+  },
+  {
+    "id": 22,
+    "question": "What is the requirement for bonding around concentric knockouts? (Ref 2)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.92"
+  },
+  {
+    "id": 23,
+    "question": "Minimum burial depth for UF cable under a residential driveway? (Ref 3)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 300.5"
+  },
+  {
+    "id": 24,
+    "question": "What is the ampacity of a 12 AWG THHN copper conductor at 90C? (Ref 4)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 310.16"
+  },
+  {
+    "id": 25,
+    "question": "How many 10 AWG THHN conductors are allowed in 1/2 inch EMT? (Ref 5)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Annex C"
+  },
+  {
+    "id": 26,
+    "question": "Required clearance for a luminaire in a clothes closet? (Ref 6)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "410.16"
+  },
+  {
+    "id": 27,
+    "question": "Maximum length of a flexible cord for a built-in dishwasher? (Ref 7)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "422.16"
+  },
+  {
+    "id": 28,
+    "question": "What is the demand factor for 4 household ranges? (Ref 8)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 220.55"
+  },
+  {
+    "id": 29,
+    "question": "Minimum size service for a single-family dwelling? (Ref 9)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "230.79(C)"
+  },
+  {
+    "id": 30,
+    "question": "What is the maximum occupancy for a Class I, Division 1 location? (Ref 10)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "500.5"
+  },
+  {
+    "id": 31,
+    "question": "Can a neutral conductor be used as a grounding conductor downstream of the service? (Ref 11)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.142"
+  },
+  {
+    "id": 32,
+    "question": "What is the requirement for bonding around concentric knockouts? (Ref 12)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.92"
+  },
+  {
+    "id": 33,
+    "question": "Minimum burial depth for UF cable under a residential driveway? (Ref 13)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 300.5"
+  },
+  {
+    "id": 34,
+    "question": "What is the ampacity of a 12 AWG THHN copper conductor at 90C? (Ref 14)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 310.16"
+  },
+  {
+    "id": 35,
+    "question": "How many 10 AWG THHN conductors are allowed in 1/2 inch EMT? (Ref 15)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Annex C"
+  },
+  {
+    "id": 36,
+    "question": "Required clearance for a luminaire in a clothes closet? (Ref 16)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "410.16"
+  },
+  {
+    "id": 37,
+    "question": "Maximum length of a flexible cord for a built-in dishwasher? (Ref 17)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "422.16"
+  },
+  {
+    "id": 38,
+    "question": "What is the demand factor for 4 household ranges? (Ref 18)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 220.55"
+  },
+  {
+    "id": 39,
+    "question": "Minimum size service for a single-family dwelling? (Ref 19)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "230.79(C)"
+  },
+  {
+    "id": 40,
+    "question": "What is the maximum occupancy for a Class I, Division 1 location? (Ref 20)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "500.5"
+  },
+  {
+    "id": 41,
+    "question": "Can a neutral conductor be used as a grounding conductor downstream of the service? (Ref 21)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.142"
+  },
+  {
+    "id": 42,
+    "question": "What is the requirement for bonding around concentric knockouts? (Ref 22)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.92"
+  },
+  {
+    "id": 43,
+    "question": "Minimum burial depth for UF cable under a residential driveway? (Ref 23)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 300.5"
+  },
+  {
+    "id": 44,
+    "question": "What is the ampacity of a 12 AWG THHN copper conductor at 90C? (Ref 24)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 310.16"
+  },
+  {
+    "id": 45,
+    "question": "How many 10 AWG THHN conductors are allowed in 1/2 inch EMT? (Ref 25)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Annex C"
+  },
+  {
+    "id": 46,
+    "question": "Required clearance for a luminaire in a clothes closet? (Ref 26)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "410.16"
+  },
+  {
+    "id": 47,
+    "question": "Maximum length of a flexible cord for a built-in dishwasher? (Ref 27)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "422.16"
+  },
+  {
+    "id": 48,
+    "question": "What is the demand factor for 4 household ranges? (Ref 28)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 220.55"
+  },
+  {
+    "id": 49,
+    "question": "Minimum size service for a single-family dwelling? (Ref 29)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "230.79(C)"
+  },
+  {
+    "id": 50,
+    "question": "What is the maximum occupancy for a Class I, Division 1 location? (Ref 30)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "500.5"
+  },
+  {
+    "id": 51,
+    "question": "Can a neutral conductor be used as a grounding conductor downstream of the service? (Ref 31)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.142"
+  },
+  {
+    "id": 52,
+    "question": "What is the requirement for bonding around concentric knockouts? (Ref 32)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.92"
+  },
+  {
+    "id": 53,
+    "question": "Minimum burial depth for UF cable under a residential driveway? (Ref 33)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 300.5"
+  },
+  {
+    "id": 54,
+    "question": "What is the ampacity of a 12 AWG THHN copper conductor at 90C? (Ref 34)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 310.16"
+  },
+  {
+    "id": 55,
+    "question": "How many 10 AWG THHN conductors are allowed in 1/2 inch EMT? (Ref 35)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Annex C"
+  },
+  {
+    "id": 56,
+    "question": "Required clearance for a luminaire in a clothes closet? (Ref 36)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "410.16"
+  },
+  {
+    "id": 57,
+    "question": "Maximum length of a flexible cord for a built-in dishwasher? (Ref 37)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "422.16"
+  },
+  {
+    "id": 58,
+    "question": "What is the demand factor for 4 household ranges? (Ref 38)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 220.55"
+  },
+  {
+    "id": 59,
+    "question": "Minimum size service for a single-family dwelling? (Ref 39)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "230.79(C)"
+  },
+  {
+    "id": 60,
+    "question": "What is the maximum occupancy for a Class I, Division 1 location? (Ref 40)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "500.5"
+  },
+  {
+    "id": 61,
+    "question": "Can a neutral conductor be used as a grounding conductor downstream of the service? (Ref 41)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.142"
+  },
+  {
+    "id": 62,
+    "question": "What is the requirement for bonding around concentric knockouts? (Ref 42)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.92"
+  },
+  {
+    "id": 63,
+    "question": "Minimum burial depth for UF cable under a residential driveway? (Ref 43)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 300.5"
+  },
+  {
+    "id": 64,
+    "question": "What is the ampacity of a 12 AWG THHN copper conductor at 90C? (Ref 44)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 310.16"
+  },
+  {
+    "id": 65,
+    "question": "How many 10 AWG THHN conductors are allowed in 1/2 inch EMT? (Ref 45)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Annex C"
+  },
+  {
+    "id": 66,
+    "question": "Required clearance for a luminaire in a clothes closet? (Ref 46)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "410.16"
+  },
+  {
+    "id": 67,
+    "question": "Maximum length of a flexible cord for a built-in dishwasher? (Ref 47)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "422.16"
+  },
+  {
+    "id": 68,
+    "question": "What is the demand factor for 4 household ranges? (Ref 48)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 220.55"
+  },
+  {
+    "id": 69,
+    "question": "Minimum size service for a single-family dwelling? (Ref 49)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "230.79(C)"
+  },
+  {
+    "id": 70,
+    "question": "What is the maximum occupancy for a Class I, Division 1 location? (Ref 50)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "500.5"
+  },
+  {
+    "id": 71,
+    "question": "Can a neutral conductor be used as a grounding conductor downstream of the service? (Ref 51)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.142"
+  },
+  {
+    "id": 72,
+    "question": "What is the requirement for bonding around concentric knockouts? (Ref 52)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.92"
+  },
+  {
+    "id": 73,
+    "question": "Minimum burial depth for UF cable under a residential driveway? (Ref 53)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 300.5"
+  },
+  {
+    "id": 74,
+    "question": "What is the ampacity of a 12 AWG THHN copper conductor at 90C? (Ref 54)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 310.16"
+  },
+  {
+    "id": 75,
+    "question": "How many 10 AWG THHN conductors are allowed in 1/2 inch EMT? (Ref 55)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Annex C"
+  },
+  {
+    "id": 76,
+    "question": "Required clearance for a luminaire in a clothes closet? (Ref 56)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "410.16"
+  },
+  {
+    "id": 77,
+    "question": "Maximum length of a flexible cord for a built-in dishwasher? (Ref 57)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "422.16"
+  },
+  {
+    "id": 78,
+    "question": "What is the demand factor for 4 household ranges? (Ref 58)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 220.55"
+  },
+  {
+    "id": 79,
+    "question": "Minimum size service for a single-family dwelling? (Ref 59)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "230.79(C)"
+  },
+  {
+    "id": 80,
+    "question": "What is the maximum occupancy for a Class I, Division 1 location? (Ref 60)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "500.5"
+  },
+  {
+    "id": 81,
+    "question": "Can a neutral conductor be used as a grounding conductor downstream of the service? (Ref 61)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.142"
+  },
+  {
+    "id": 82,
+    "question": "What is the requirement for bonding around concentric knockouts? (Ref 62)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.92"
+  },
+  {
+    "id": 83,
+    "question": "Minimum burial depth for UF cable under a residential driveway? (Ref 63)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 300.5"
+  },
+  {
+    "id": 84,
+    "question": "What is the ampacity of a 12 AWG THHN copper conductor at 90C? (Ref 64)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 310.16"
+  },
+  {
+    "id": 85,
+    "question": "How many 10 AWG THHN conductors are allowed in 1/2 inch EMT? (Ref 65)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Annex C"
+  },
+  {
+    "id": 86,
+    "question": "Required clearance for a luminaire in a clothes closet? (Ref 66)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "410.16"
+  },
+  {
+    "id": 87,
+    "question": "Maximum length of a flexible cord for a built-in dishwasher? (Ref 67)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "422.16"
+  },
+  {
+    "id": 88,
+    "question": "What is the demand factor for 4 household ranges? (Ref 68)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 220.55"
+  },
+  {
+    "id": 89,
+    "question": "Minimum size service for a single-family dwelling? (Ref 69)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "230.79(C)"
+  },
+  {
+    "id": 90,
+    "question": "What is the maximum occupancy for a Class I, Division 1 location? (Ref 70)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "500.5"
+  },
+  {
+    "id": 91,
+    "question": "Can a neutral conductor be used as a grounding conductor downstream of the service? (Ref 71)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.142"
+  },
+  {
+    "id": 92,
+    "question": "What is the requirement for bonding around concentric knockouts? (Ref 72)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.92"
+  },
+  {
+    "id": 93,
+    "question": "Minimum burial depth for UF cable under a residential driveway? (Ref 73)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 300.5"
+  },
+  {
+    "id": 94,
+    "question": "What is the ampacity of a 12 AWG THHN copper conductor at 90C? (Ref 74)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 310.16"
+  },
+  {
+    "id": 95,
+    "question": "How many 10 AWG THHN conductors are allowed in 1/2 inch EMT? (Ref 75)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Annex C"
+  },
+  {
+    "id": 96,
+    "question": "Required clearance for a luminaire in a clothes closet? (Ref 76)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "410.16"
+  },
+  {
+    "id": 97,
+    "question": "Maximum length of a flexible cord for a built-in dishwasher? (Ref 77)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "422.16"
+  },
+  {
+    "id": 98,
+    "question": "What is the demand factor for 4 household ranges? (Ref 78)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 220.55"
+  },
+  {
+    "id": 99,
+    "question": "Minimum size service for a single-family dwelling? (Ref 79)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "230.79(C)"
+  },
+  {
+    "id": 100,
+    "question": "What is the maximum occupancy for a Class I, Division 1 location? (Ref 80)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "500.5"
+  },
+  {
+    "id": 101,
+    "question": "Can a neutral conductor be used as a grounding conductor downstream of the service? (Ref 81)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.142"
+  },
+  {
+    "id": 102,
+    "question": "What is the requirement for bonding around concentric knockouts? (Ref 82)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.92"
+  },
+  {
+    "id": 103,
+    "question": "Minimum burial depth for UF cable under a residential driveway? (Ref 83)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 300.5"
+  },
+  {
+    "id": 104,
+    "question": "What is the ampacity of a 12 AWG THHN copper conductor at 90C? (Ref 84)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 310.16"
+  },
+  {
+    "id": 105,
+    "question": "How many 10 AWG THHN conductors are allowed in 1/2 inch EMT? (Ref 85)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Annex C"
+  },
+  {
+    "id": 106,
+    "question": "Required clearance for a luminaire in a clothes closet? (Ref 86)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "410.16"
+  },
+  {
+    "id": 107,
+    "question": "Maximum length of a flexible cord for a built-in dishwasher? (Ref 87)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "422.16"
+  },
+  {
+    "id": 108,
+    "question": "What is the demand factor for 4 household ranges? (Ref 88)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 220.55"
+  },
+  {
+    "id": 109,
+    "question": "Minimum size service for a single-family dwelling? (Ref 89)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "230.79(C)"
+  },
+  {
+    "id": 110,
+    "question": "What is the maximum occupancy for a Class I, Division 1 location? (Ref 90)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "500.5"
+  },
+  {
+    "id": 111,
+    "question": "Can a neutral conductor be used as a grounding conductor downstream of the service? (Ref 91)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.142"
+  },
+  {
+    "id": 112,
+    "question": "What is the requirement for bonding around concentric knockouts? (Ref 92)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "250.92"
+  },
+  {
+    "id": 113,
+    "question": "Minimum burial depth for UF cable under a residential driveway? (Ref 93)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 300.5"
+  },
+  {
+    "id": 114,
+    "question": "What is the ampacity of a 12 AWG THHN copper conductor at 90C? (Ref 94)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 310.16"
+  },
+  {
+    "id": 115,
+    "question": "How many 10 AWG THHN conductors are allowed in 1/2 inch EMT? (Ref 95)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Annex C"
+  },
+  {
+    "id": 116,
+    "question": "Required clearance for a luminaire in a clothes closet? (Ref 96)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "410.16"
+  },
+  {
+    "id": 117,
+    "question": "Maximum length of a flexible cord for a built-in dishwasher? (Ref 97)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "422.16"
+  },
+  {
+    "id": 118,
+    "question": "What is the demand factor for 4 household ranges? (Ref 98)",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "Table 220.55"
+  },
+  {
+    "id": 119,
+    "question": "Minimum size service for a single-family dwelling? (Ref 99)",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "keywords": [
+      "NEC",
+      "code"
+    ],
+    "correct_answer": "Consult the specific NEC reference for detailed requirements.",
+    "nec_reference": "230.79(C)"
+  },
+  {
+    "id": 120,
+    "question": "Explain Kirchhoff's Voltage Law.",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "sum",
+      "voltage",
+      "loop",
+      "zero"
+    ],
+    "correct_answer": "The algebraic sum of all voltages in a closed loop is zero.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 121,
+    "question": "What is the relationship between frequency and inductive reactance?",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "proportional",
+      "increases",
+      "XL = 2πfL"
+    ],
+    "correct_answer": "Inductive reactance increases as frequency increases (direct proportionality).",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 122,
+    "question": "How do you calculate the power in a 3-phase system?",
+    "category": "theory",
+    "difficulty": "master",
+    "keywords": [
+      "root 3",
+      "1.732",
+      "voltage",
+      "current"
+    ],
+    "correct_answer": "Power = Volts x Amps x 1.732 x Power Factor.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 123,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 0)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 124,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 1)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 125,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 2)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 126,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 3)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 127,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 4)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 128,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 5)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 129,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 6)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 130,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 7)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 131,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 8)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 132,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 9)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 133,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 10)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 134,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 11)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 135,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 12)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 136,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 13)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 137,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 14)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 138,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 15)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 139,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 16)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 140,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 17)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 141,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 18)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 142,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 19)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 143,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 20)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 144,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 21)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 145,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 22)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 146,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 23)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 147,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 24)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 148,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 25)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 149,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 26)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 150,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 27)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 151,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 28)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 152,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 29)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 153,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 30)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 154,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 31)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 155,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 32)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 156,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 33)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 157,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 34)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 158,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 35)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 159,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 36)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 160,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 37)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 161,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 38)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 162,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 39)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 163,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 40)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 164,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 41)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 165,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 42)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 166,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 43)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 167,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 44)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 168,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 45)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 169,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 46)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 170,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 47)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 171,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 48)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 172,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 49)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 173,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 50)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 174,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 51)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 175,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 52)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 176,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 53)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 177,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 54)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 178,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 55)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 179,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 56)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 180,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 57)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 181,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 58)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 182,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 59)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 183,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 60)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 184,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 61)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 185,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 62)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 186,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 63)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 187,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 64)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 188,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 65)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 189,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 66)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 190,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 67)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 191,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 68)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 192,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 69)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 193,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 70)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 194,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 71)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 195,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 72)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 196,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 73)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 197,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 74)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 198,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 75)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 199,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 76)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 200,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 77)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 201,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 78)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 202,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 79)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 203,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 80)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 204,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 81)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 205,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 82)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 206,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 83)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 207,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 84)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 208,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 85)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 209,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 86)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 210,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 87)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 211,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 88)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 212,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 89)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 213,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 90)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 214,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 91)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 215,
+    "question": "If a transformer has a 4:1 turns ratio and 480V on the primary, what is the secondary voltage? (Theory Q 92)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "120",
+      "volts"
+    ],
+    "correct_answer": "120V",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 216,
+    "question": "Define 'Root Mean Square' (RMS) voltage. (Theory Q 93)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "effective",
+      "heating"
+    ],
+    "correct_answer": "The effective value of an AC voltage, equal to the DC voltage that would produce the same heating effect.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 217,
+    "question": "What is the phase angle of a purely inductive circuit? (Theory Q 94)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "90",
+      "lagging"
+    ],
+    "correct_answer": "90 degrees lagging.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 218,
+    "question": "Calculate the resistance of a 120V heater that draws 10A. (Theory Q 95)",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "keywords": [
+      "12",
+      "ohms"
+    ],
+    "correct_answer": "12 Ohms (R = V/I)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 219,
+    "question": "What is the total capacitance of two 10uF capacitors in parallel? (Theory Q 96)",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "keywords": [
+      "20",
+      "uF"
+    ],
+    "correct_answer": "20uF (Ct = C1 + C2)",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 220,
+    "question": "How do you offset a conduit around a 4-inch obstruction using 30-degree bends?",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "8 inches",
+      "shrink",
+      "multiplier"
+    ],
+    "correct_answer": "Distance between bends = Offset x Multiplier. For 30 deg, multiplier is 2. So 4\" x 2 = 8\".",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 221,
+    "question": "What is the purpose of a 'pigtail' in a device box?",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "connection",
+      "device",
+      "parallel"
+    ],
+    "correct_answer": "To allow a device to be connected without breaking the continuity of the circuit conductors.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 222,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 0)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 223,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 1)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 224,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 2)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 225,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 3)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 226,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 4)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 227,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 5)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 228,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 6)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 229,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 7)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 230,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 8)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 231,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 9)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 232,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 10)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 233,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 11)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 234,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 12)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 235,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 13)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 236,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 14)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 237,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 15)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 238,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 16)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 239,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 17)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 240,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 18)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 241,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 19)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 242,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 20)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 243,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 21)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 244,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 22)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 245,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 23)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 246,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 24)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 247,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 25)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 248,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 26)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 249,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 27)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 250,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 28)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 251,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 29)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 252,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 30)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 253,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 31)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 254,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 32)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 255,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 33)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 256,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 34)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 257,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 35)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 258,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 36)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 259,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 37)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 260,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 38)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 261,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 39)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 262,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 40)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 263,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 41)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 264,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 42)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 265,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 43)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 266,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 44)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 267,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 45)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 268,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 46)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 269,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 47)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 270,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 48)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 271,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 49)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 272,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 50)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 273,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 51)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 274,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 52)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 275,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 53)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 276,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 54)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 277,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 55)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 278,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 56)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 279,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 57)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 280,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 58)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 281,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 59)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 282,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 60)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 283,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 61)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 284,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 62)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 285,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 63)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 286,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 64)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 287,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 65)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 288,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 66)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 289,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 67)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 290,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 68)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 291,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 69)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 292,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 70)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 293,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 71)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 294,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 72)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 295,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 73)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 296,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 74)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 297,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 75)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 298,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 76)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 299,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 77)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 300,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 78)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 301,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 79)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 302,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 80)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 303,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 81)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 304,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 82)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 305,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 83)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 306,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 84)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 307,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 85)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 308,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 86)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 309,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 87)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 310,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 88)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 311,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 89)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 312,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 90)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 313,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 91)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 314,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 92)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 315,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 93)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 316,
+    "question": "What is the best way to terminate a stranded wire on a screw terminal? (Practical 94)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "crimp",
+      "wrap"
+    ],
+    "correct_answer": "Use a crimp-on spade/ring terminal or carefully wrap 3/4 around the screw.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 317,
+    "question": "How do you identify the 'hot' wire in an old house with no color coding? (Practical 95)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "tester",
+      "ground"
+    ],
+    "correct_answer": "Use a non-contact voltage tester or measure voltage to a known ground.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 318,
+    "question": "Describe the process of pulling wire through a long run with multiple 90-degree bends. (Practical 96)",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "keywords": [
+      "lubricant",
+      "fish tape"
+    ],
+    "correct_answer": "Use soap/lubricant, pull steady, use a fish tape or vacuum string.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 319,
+    "question": "How do you check for a blown fuse using a multimeter? (Practical 97)",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "keywords": [
+      "continuity",
+      "ohms"
+    ],
+    "correct_answer": "Set to continuity or ohms; a good fuse should have near zero resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 320,
+    "question": "At what voltage level does OSHA require protective equipment for electrical work?",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "50 volts"
+    ],
+    "correct_answer": "Protective equipment is generally required for systems operating at 50V or more.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 321,
+    "question": "How many feet must an extension ladder extend above the roof line?",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "3 feet",
+      "36 inches"
+    ],
+    "correct_answer": "Ladders must extend at least 3 feet above the point of support.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 322,
+    "question": "What is the 'one hand rule' and when is it used? (Safety 0)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "heart",
+      "pocket"
+    ],
+    "correct_answer": "Keep one hand in your pocket when working near live parts to prevent current from passing through the heart.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 323,
+    "question": "Define the 'Limited Approach Boundary'. (Safety 1)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "shock",
+      "distance"
+    ],
+    "correct_answer": "A distance from an exposed energized conductor within which a shock hazard exists.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 324,
+    "question": "What type of fire extinguisher is used for electrical fires? (Safety 2)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "Class C"
+    ],
+    "correct_answer": "Class C.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 325,
+    "question": "How often should rubber insulating gloves be tested? (Safety 3)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "6 months"
+    ],
+    "correct_answer": "Every 6 months.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 326,
+    "question": "What is the 'one hand rule' and when is it used? (Safety 4)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "heart",
+      "pocket"
+    ],
+    "correct_answer": "Keep one hand in your pocket when working near live parts to prevent current from passing through the heart.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 327,
+    "question": "Define the 'Limited Approach Boundary'. (Safety 5)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "shock",
+      "distance"
+    ],
+    "correct_answer": "A distance from an exposed energized conductor within which a shock hazard exists.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 328,
+    "question": "What type of fire extinguisher is used for electrical fires? (Safety 6)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "Class C"
+    ],
+    "correct_answer": "Class C.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 329,
+    "question": "How often should rubber insulating gloves be tested? (Safety 7)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "6 months"
+    ],
+    "correct_answer": "Every 6 months.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 330,
+    "question": "What is the 'one hand rule' and when is it used? (Safety 8)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "heart",
+      "pocket"
+    ],
+    "correct_answer": "Keep one hand in your pocket when working near live parts to prevent current from passing through the heart.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 331,
+    "question": "Define the 'Limited Approach Boundary'. (Safety 9)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "shock",
+      "distance"
+    ],
+    "correct_answer": "A distance from an exposed energized conductor within which a shock hazard exists.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 332,
+    "question": "What type of fire extinguisher is used for electrical fires? (Safety 10)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "Class C"
+    ],
+    "correct_answer": "Class C.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 333,
+    "question": "How often should rubber insulating gloves be tested? (Safety 11)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "6 months"
+    ],
+    "correct_answer": "Every 6 months.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 334,
+    "question": "What is the 'one hand rule' and when is it used? (Safety 12)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "heart",
+      "pocket"
+    ],
+    "correct_answer": "Keep one hand in your pocket when working near live parts to prevent current from passing through the heart.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 335,
+    "question": "Define the 'Limited Approach Boundary'. (Safety 13)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "shock",
+      "distance"
+    ],
+    "correct_answer": "A distance from an exposed energized conductor within which a shock hazard exists.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 336,
+    "question": "What type of fire extinguisher is used for electrical fires? (Safety 14)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "Class C"
+    ],
+    "correct_answer": "Class C.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 337,
+    "question": "How often should rubber insulating gloves be tested? (Safety 15)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "6 months"
+    ],
+    "correct_answer": "Every 6 months.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 338,
+    "question": "What is the 'one hand rule' and when is it used? (Safety 16)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "heart",
+      "pocket"
+    ],
+    "correct_answer": "Keep one hand in your pocket when working near live parts to prevent current from passing through the heart.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 339,
+    "question": "Define the 'Limited Approach Boundary'. (Safety 17)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "shock",
+      "distance"
+    ],
+    "correct_answer": "A distance from an exposed energized conductor within which a shock hazard exists.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 340,
+    "question": "What type of fire extinguisher is used for electrical fires? (Safety 18)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "Class C"
+    ],
+    "correct_answer": "Class C.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 341,
+    "question": "How often should rubber insulating gloves be tested? (Safety 19)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "6 months"
+    ],
+    "correct_answer": "Every 6 months.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 342,
+    "question": "What is the 'one hand rule' and when is it used? (Safety 20)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "heart",
+      "pocket"
+    ],
+    "correct_answer": "Keep one hand in your pocket when working near live parts to prevent current from passing through the heart.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 343,
+    "question": "Define the 'Limited Approach Boundary'. (Safety 21)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "shock",
+      "distance"
+    ],
+    "correct_answer": "A distance from an exposed energized conductor within which a shock hazard exists.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 344,
+    "question": "What type of fire extinguisher is used for electrical fires? (Safety 22)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "Class C"
+    ],
+    "correct_answer": "Class C.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 345,
+    "question": "How often should rubber insulating gloves be tested? (Safety 23)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "6 months"
+    ],
+    "correct_answer": "Every 6 months.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 346,
+    "question": "What is the 'one hand rule' and when is it used? (Safety 24)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "heart",
+      "pocket"
+    ],
+    "correct_answer": "Keep one hand in your pocket when working near live parts to prevent current from passing through the heart.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 347,
+    "question": "Define the 'Limited Approach Boundary'. (Safety 25)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "shock",
+      "distance"
+    ],
+    "correct_answer": "A distance from an exposed energized conductor within which a shock hazard exists.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 348,
+    "question": "What type of fire extinguisher is used for electrical fires? (Safety 26)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "Class C"
+    ],
+    "correct_answer": "Class C.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 349,
+    "question": "How often should rubber insulating gloves be tested? (Safety 27)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "6 months"
+    ],
+    "correct_answer": "Every 6 months.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 350,
+    "question": "What is the 'one hand rule' and when is it used? (Safety 28)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "heart",
+      "pocket"
+    ],
+    "correct_answer": "Keep one hand in your pocket when working near live parts to prevent current from passing through the heart.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 351,
+    "question": "Define the 'Limited Approach Boundary'. (Safety 29)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "shock",
+      "distance"
+    ],
+    "correct_answer": "A distance from an exposed energized conductor within which a shock hazard exists.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 352,
+    "question": "What type of fire extinguisher is used for electrical fires? (Safety 30)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "Class C"
+    ],
+    "correct_answer": "Class C.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 353,
+    "question": "How often should rubber insulating gloves be tested? (Safety 31)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "6 months"
+    ],
+    "correct_answer": "Every 6 months.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 354,
+    "question": "What is the 'one hand rule' and when is it used? (Safety 32)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "heart",
+      "pocket"
+    ],
+    "correct_answer": "Keep one hand in your pocket when working near live parts to prevent current from passing through the heart.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 355,
+    "question": "Define the 'Limited Approach Boundary'. (Safety 33)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "shock",
+      "distance"
+    ],
+    "correct_answer": "A distance from an exposed energized conductor within which a shock hazard exists.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 356,
+    "question": "What type of fire extinguisher is used for electrical fires? (Safety 34)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "Class C"
+    ],
+    "correct_answer": "Class C.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 357,
+    "question": "How often should rubber insulating gloves be tested? (Safety 35)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "6 months"
+    ],
+    "correct_answer": "Every 6 months.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 358,
+    "question": "What is the 'one hand rule' and when is it used? (Safety 36)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "heart",
+      "pocket"
+    ],
+    "correct_answer": "Keep one hand in your pocket when working near live parts to prevent current from passing through the heart.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 359,
+    "question": "Define the 'Limited Approach Boundary'. (Safety 37)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "shock",
+      "distance"
+    ],
+    "correct_answer": "A distance from an exposed energized conductor within which a shock hazard exists.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 360,
+    "question": "What type of fire extinguisher is used for electrical fires? (Safety 38)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "Class C"
+    ],
+    "correct_answer": "Class C.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 361,
+    "question": "How often should rubber insulating gloves be tested? (Safety 39)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "6 months"
+    ],
+    "correct_answer": "Every 6 months.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 362,
+    "question": "What is the 'one hand rule' and when is it used? (Safety 40)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "heart",
+      "pocket"
+    ],
+    "correct_answer": "Keep one hand in your pocket when working near live parts to prevent current from passing through the heart.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 363,
+    "question": "Define the 'Limited Approach Boundary'. (Safety 41)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "shock",
+      "distance"
+    ],
+    "correct_answer": "A distance from an exposed energized conductor within which a shock hazard exists.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 364,
+    "question": "What type of fire extinguisher is used for electrical fires? (Safety 42)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "Class C"
+    ],
+    "correct_answer": "Class C.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 365,
+    "question": "How often should rubber insulating gloves be tested? (Safety 43)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "6 months"
+    ],
+    "correct_answer": "Every 6 months.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 366,
+    "question": "What is the 'one hand rule' and when is it used? (Safety 44)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "heart",
+      "pocket"
+    ],
+    "correct_answer": "Keep one hand in your pocket when working near live parts to prevent current from passing through the heart.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 367,
+    "question": "Define the 'Limited Approach Boundary'. (Safety 45)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "shock",
+      "distance"
+    ],
+    "correct_answer": "A distance from an exposed energized conductor within which a shock hazard exists.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 368,
+    "question": "What type of fire extinguisher is used for electrical fires? (Safety 46)",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "keywords": [
+      "Class C"
+    ],
+    "correct_answer": "Class C.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 369,
+    "question": "How often should rubber insulating gloves be tested? (Safety 47)",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "keywords": [
+      "6 months"
+    ],
+    "correct_answer": "Every 6 months.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 370,
+    "question": "A GFCI trips immediately when a load is plugged in, even if the load is off. What is a likely cause?",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "neutral-to-ground",
+      "short"
+    ],
+    "correct_answer": "A neutral-to-ground fault downstream of the GFCI.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 371,
+    "question": "A motor is drawing high current on all three phases. What could be the issue?",
+    "category": "troubleshooting",
+    "difficulty": "master",
+    "keywords": [
+      "overload",
+      "mechanical",
+      "voltage"
+    ],
+    "correct_answer": "Mechanical overload, low voltage, or seized bearings.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 372,
+    "question": "A 3-way switch only works when the other switch is in a certain position. What's wrong? (Troubleshoot 0)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "common",
+      "traveler"
+    ],
+    "correct_answer": "The common wire is likely swapped with one of the travelers.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 373,
+    "question": "Lights dim significantly when the AC kicks on. What should you check? (Troubleshoot 1)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "neutral",
+      "voltage drop"
+    ],
+    "correct_answer": "Voltage drop, loose neutral in the service, or undersized feeders.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 374,
+    "question": "How do you find a ground fault in a multi-wire branch circuit? (Troubleshoot 2)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "isolate",
+      "megger"
+    ],
+    "correct_answer": "Isolate sections of the circuit and test insulation resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 375,
+    "question": "A 3-way switch only works when the other switch is in a certain position. What's wrong? (Troubleshoot 3)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "common",
+      "traveler"
+    ],
+    "correct_answer": "The common wire is likely swapped with one of the travelers.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 376,
+    "question": "Lights dim significantly when the AC kicks on. What should you check? (Troubleshoot 4)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "neutral",
+      "voltage drop"
+    ],
+    "correct_answer": "Voltage drop, loose neutral in the service, or undersized feeders.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 377,
+    "question": "How do you find a ground fault in a multi-wire branch circuit? (Troubleshoot 5)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "isolate",
+      "megger"
+    ],
+    "correct_answer": "Isolate sections of the circuit and test insulation resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 378,
+    "question": "A 3-way switch only works when the other switch is in a certain position. What's wrong? (Troubleshoot 6)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "common",
+      "traveler"
+    ],
+    "correct_answer": "The common wire is likely swapped with one of the travelers.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 379,
+    "question": "Lights dim significantly when the AC kicks on. What should you check? (Troubleshoot 7)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "neutral",
+      "voltage drop"
+    ],
+    "correct_answer": "Voltage drop, loose neutral in the service, or undersized feeders.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 380,
+    "question": "How do you find a ground fault in a multi-wire branch circuit? (Troubleshoot 8)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "isolate",
+      "megger"
+    ],
+    "correct_answer": "Isolate sections of the circuit and test insulation resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 381,
+    "question": "A 3-way switch only works when the other switch is in a certain position. What's wrong? (Troubleshoot 9)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "common",
+      "traveler"
+    ],
+    "correct_answer": "The common wire is likely swapped with one of the travelers.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 382,
+    "question": "Lights dim significantly when the AC kicks on. What should you check? (Troubleshoot 10)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "neutral",
+      "voltage drop"
+    ],
+    "correct_answer": "Voltage drop, loose neutral in the service, or undersized feeders.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 383,
+    "question": "How do you find a ground fault in a multi-wire branch circuit? (Troubleshoot 11)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "isolate",
+      "megger"
+    ],
+    "correct_answer": "Isolate sections of the circuit and test insulation resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 384,
+    "question": "A 3-way switch only works when the other switch is in a certain position. What's wrong? (Troubleshoot 12)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "common",
+      "traveler"
+    ],
+    "correct_answer": "The common wire is likely swapped with one of the travelers.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 385,
+    "question": "Lights dim significantly when the AC kicks on. What should you check? (Troubleshoot 13)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "neutral",
+      "voltage drop"
+    ],
+    "correct_answer": "Voltage drop, loose neutral in the service, or undersized feeders.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 386,
+    "question": "How do you find a ground fault in a multi-wire branch circuit? (Troubleshoot 14)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "isolate",
+      "megger"
+    ],
+    "correct_answer": "Isolate sections of the circuit and test insulation resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 387,
+    "question": "A 3-way switch only works when the other switch is in a certain position. What's wrong? (Troubleshoot 15)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "common",
+      "traveler"
+    ],
+    "correct_answer": "The common wire is likely swapped with one of the travelers.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 388,
+    "question": "Lights dim significantly when the AC kicks on. What should you check? (Troubleshoot 16)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "neutral",
+      "voltage drop"
+    ],
+    "correct_answer": "Voltage drop, loose neutral in the service, or undersized feeders.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 389,
+    "question": "How do you find a ground fault in a multi-wire branch circuit? (Troubleshoot 17)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "isolate",
+      "megger"
+    ],
+    "correct_answer": "Isolate sections of the circuit and test insulation resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 390,
+    "question": "A 3-way switch only works when the other switch is in a certain position. What's wrong? (Troubleshoot 18)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "common",
+      "traveler"
+    ],
+    "correct_answer": "The common wire is likely swapped with one of the travelers.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 391,
+    "question": "Lights dim significantly when the AC kicks on. What should you check? (Troubleshoot 19)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "neutral",
+      "voltage drop"
+    ],
+    "correct_answer": "Voltage drop, loose neutral in the service, or undersized feeders.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 392,
+    "question": "How do you find a ground fault in a multi-wire branch circuit? (Troubleshoot 20)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "isolate",
+      "megger"
+    ],
+    "correct_answer": "Isolate sections of the circuit and test insulation resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 393,
+    "question": "A 3-way switch only works when the other switch is in a certain position. What's wrong? (Troubleshoot 21)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "common",
+      "traveler"
+    ],
+    "correct_answer": "The common wire is likely swapped with one of the travelers.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 394,
+    "question": "Lights dim significantly when the AC kicks on. What should you check? (Troubleshoot 22)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "neutral",
+      "voltage drop"
+    ],
+    "correct_answer": "Voltage drop, loose neutral in the service, or undersized feeders.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 395,
+    "question": "How do you find a ground fault in a multi-wire branch circuit? (Troubleshoot 23)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "isolate",
+      "megger"
+    ],
+    "correct_answer": "Isolate sections of the circuit and test insulation resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 396,
+    "question": "A 3-way switch only works when the other switch is in a certain position. What's wrong? (Troubleshoot 24)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "common",
+      "traveler"
+    ],
+    "correct_answer": "The common wire is likely swapped with one of the travelers.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 397,
+    "question": "Lights dim significantly when the AC kicks on. What should you check? (Troubleshoot 25)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "neutral",
+      "voltage drop"
+    ],
+    "correct_answer": "Voltage drop, loose neutral in the service, or undersized feeders.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 398,
+    "question": "How do you find a ground fault in a multi-wire branch circuit? (Troubleshoot 26)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "isolate",
+      "megger"
+    ],
+    "correct_answer": "Isolate sections of the circuit and test insulation resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 399,
+    "question": "A 3-way switch only works when the other switch is in a certain position. What's wrong? (Troubleshoot 27)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "common",
+      "traveler"
+    ],
+    "correct_answer": "The common wire is likely swapped with one of the travelers.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 400,
+    "question": "Lights dim significantly when the AC kicks on. What should you check? (Troubleshoot 28)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "neutral",
+      "voltage drop"
+    ],
+    "correct_answer": "Voltage drop, loose neutral in the service, or undersized feeders.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 401,
+    "question": "How do you find a ground fault in a multi-wire branch circuit? (Troubleshoot 29)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "isolate",
+      "megger"
+    ],
+    "correct_answer": "Isolate sections of the circuit and test insulation resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 402,
+    "question": "A 3-way switch only works when the other switch is in a certain position. What's wrong? (Troubleshoot 30)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "common",
+      "traveler"
+    ],
+    "correct_answer": "The common wire is likely swapped with one of the travelers.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 403,
+    "question": "Lights dim significantly when the AC kicks on. What should you check? (Troubleshoot 31)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "neutral",
+      "voltage drop"
+    ],
+    "correct_answer": "Voltage drop, loose neutral in the service, or undersized feeders.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 404,
+    "question": "How do you find a ground fault in a multi-wire branch circuit? (Troubleshoot 32)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "isolate",
+      "megger"
+    ],
+    "correct_answer": "Isolate sections of the circuit and test insulation resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 405,
+    "question": "A 3-way switch only works when the other switch is in a certain position. What's wrong? (Troubleshoot 33)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "common",
+      "traveler"
+    ],
+    "correct_answer": "The common wire is likely swapped with one of the travelers.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 406,
+    "question": "Lights dim significantly when the AC kicks on. What should you check? (Troubleshoot 34)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "neutral",
+      "voltage drop"
+    ],
+    "correct_answer": "Voltage drop, loose neutral in the service, or undersized feeders.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 407,
+    "question": "How do you find a ground fault in a multi-wire branch circuit? (Troubleshoot 35)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "isolate",
+      "megger"
+    ],
+    "correct_answer": "Isolate sections of the circuit and test insulation resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 408,
+    "question": "A 3-way switch only works when the other switch is in a certain position. What's wrong? (Troubleshoot 36)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "common",
+      "traveler"
+    ],
+    "correct_answer": "The common wire is likely swapped with one of the travelers.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 409,
+    "question": "Lights dim significantly when the AC kicks on. What should you check? (Troubleshoot 37)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "neutral",
+      "voltage drop"
+    ],
+    "correct_answer": "Voltage drop, loose neutral in the service, or undersized feeders.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 410,
+    "question": "How do you find a ground fault in a multi-wire branch circuit? (Troubleshoot 38)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "isolate",
+      "megger"
+    ],
+    "correct_answer": "Isolate sections of the circuit and test insulation resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 411,
+    "question": "A 3-way switch only works when the other switch is in a certain position. What's wrong? (Troubleshoot 39)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "common",
+      "traveler"
+    ],
+    "correct_answer": "The common wire is likely swapped with one of the travelers.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 412,
+    "question": "Lights dim significantly when the AC kicks on. What should you check? (Troubleshoot 40)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "neutral",
+      "voltage drop"
+    ],
+    "correct_answer": "Voltage drop, loose neutral in the service, or undersized feeders.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 413,
+    "question": "How do you find a ground fault in a multi-wire branch circuit? (Troubleshoot 41)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "isolate",
+      "megger"
+    ],
+    "correct_answer": "Isolate sections of the circuit and test insulation resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 414,
+    "question": "A 3-way switch only works when the other switch is in a certain position. What's wrong? (Troubleshoot 42)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "common",
+      "traveler"
+    ],
+    "correct_answer": "The common wire is likely swapped with one of the travelers.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 415,
+    "question": "Lights dim significantly when the AC kicks on. What should you check? (Troubleshoot 43)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "neutral",
+      "voltage drop"
+    ],
+    "correct_answer": "Voltage drop, loose neutral in the service, or undersized feeders.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 416,
+    "question": "How do you find a ground fault in a multi-wire branch circuit? (Troubleshoot 44)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "isolate",
+      "megger"
+    ],
+    "correct_answer": "Isolate sections of the circuit and test insulation resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 417,
+    "question": "A 3-way switch only works when the other switch is in a certain position. What's wrong? (Troubleshoot 45)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "common",
+      "traveler"
+    ],
+    "correct_answer": "The common wire is likely swapped with one of the travelers.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 418,
+    "question": "Lights dim significantly when the AC kicks on. What should you check? (Troubleshoot 46)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "neutral",
+      "voltage drop"
+    ],
+    "correct_answer": "Voltage drop, loose neutral in the service, or undersized feeders.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 419,
+    "question": "How do you find a ground fault in a multi-wire branch circuit? (Troubleshoot 47)",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "keywords": [
+      "isolate",
+      "megger"
+    ],
+    "correct_answer": "Isolate sections of the circuit and test insulation resistance.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 420,
+    "question": "How do you handle a conflict between two journeymen on your crew?",
+    "category": "management",
+    "difficulty": "master",
+    "keywords": [
+      "leadership",
+      "management"
+    ],
+    "correct_answer": "Focus on professional communication, accountability, and problem-solving.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 421,
+    "question": "Behavioral: How do you handle a conflict between two journeymen on your crew?",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "experience",
+      "STAR method"
+    ],
+    "correct_answer": "Use the Situation, Task, Action, Result (STAR) method to describe a specific past event.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 422,
+    "question": "Describe your process for tracking material usage and ordering.",
+    "category": "management",
+    "difficulty": "master",
+    "keywords": [
+      "leadership",
+      "management"
+    ],
+    "correct_answer": "Focus on professional communication, accountability, and problem-solving.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 423,
+    "question": "Behavioral: Describe your process for tracking material usage and ordering.",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "experience",
+      "STAR method"
+    ],
+    "correct_answer": "Use the Situation, Task, Action, Result (STAR) method to describe a specific past event.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 424,
+    "question": "How do you ensure your crew follows safety protocols when you aren't looking?",
+    "category": "management",
+    "difficulty": "master",
+    "keywords": [
+      "leadership",
+      "management"
+    ],
+    "correct_answer": "Focus on professional communication, accountability, and problem-solving.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 425,
+    "question": "Behavioral: How do you ensure your crew follows safety protocols when you aren't looking?",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "experience",
+      "STAR method"
+    ],
+    "correct_answer": "Use the Situation, Task, Action, Result (STAR) method to describe a specific past event.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 426,
+    "question": "A project is falling behind schedule. What steps do you take to catch up?",
+    "category": "management",
+    "difficulty": "master",
+    "keywords": [
+      "leadership",
+      "management"
+    ],
+    "correct_answer": "Focus on professional communication, accountability, and problem-solving.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 427,
+    "question": "Behavioral: A project is falling behind schedule. What steps do you take to catch up?",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "experience",
+      "STAR method"
+    ],
+    "correct_answer": "Use the Situation, Task, Action, Result (STAR) method to describe a specific past event.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 428,
+    "question": "How do you communicate complex technical details to a non-technical client?",
+    "category": "management",
+    "difficulty": "master",
+    "keywords": [
+      "leadership",
+      "management"
+    ],
+    "correct_answer": "Focus on professional communication, accountability, and problem-solving.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 429,
+    "question": "Behavioral: How do you communicate complex technical details to a non-technical client?",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "experience",
+      "STAR method"
+    ],
+    "correct_answer": "Use the Situation, Task, Action, Result (STAR) method to describe a specific past event.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 430,
+    "question": "Describe a time you had to discipline a team member. What was the outcome?",
+    "category": "management",
+    "difficulty": "master",
+    "keywords": [
+      "leadership",
+      "management"
+    ],
+    "correct_answer": "Focus on professional communication, accountability, and problem-solving.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 431,
+    "question": "Behavioral: Describe a time you had to discipline a team member. What was the outcome?",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "experience",
+      "STAR method"
+    ],
+    "correct_answer": "Use the Situation, Task, Action, Result (STAR) method to describe a specific past event.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 432,
+    "question": "How do you prioritize daily tasks for a crew of 10 electricians?",
+    "category": "management",
+    "difficulty": "master",
+    "keywords": [
+      "leadership",
+      "management"
+    ],
+    "correct_answer": "Focus on professional communication, accountability, and problem-solving.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 433,
+    "question": "Behavioral: How do you prioritize daily tasks for a crew of 10 electricians?",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "experience",
+      "STAR method"
+    ],
+    "correct_answer": "Use the Situation, Task, Action, Result (STAR) method to describe a specific past event.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 434,
+    "question": "What is your approach to mentoring apprentices?",
+    "category": "management",
+    "difficulty": "master",
+    "keywords": [
+      "leadership",
+      "management"
+    ],
+    "correct_answer": "Focus on professional communication, accountability, and problem-solving.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 435,
+    "question": "Behavioral: What is your approach to mentoring apprentices?",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "experience",
+      "STAR method"
+    ],
+    "correct_answer": "Use the Situation, Task, Action, Result (STAR) method to describe a specific past event.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 436,
+    "question": "How do you handle a mistake you made that cost the company money?",
+    "category": "management",
+    "difficulty": "master",
+    "keywords": [
+      "leadership",
+      "management"
+    ],
+    "correct_answer": "Focus on professional communication, accountability, and problem-solving.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 437,
+    "question": "Behavioral: How do you handle a mistake you made that cost the company money?",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "experience",
+      "STAR method"
+    ],
+    "correct_answer": "Use the Situation, Task, Action, Result (STAR) method to describe a specific past event.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 438,
+    "question": "Tell me about a time you had to adapt to a major change in project plans.",
+    "category": "management",
+    "difficulty": "master",
+    "keywords": [
+      "leadership",
+      "management"
+    ],
+    "correct_answer": "Focus on professional communication, accountability, and problem-solving.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 439,
+    "question": "Behavioral: Tell me about a time you had to adapt to a major change in project plans.",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "experience",
+      "STAR method"
+    ],
+    "correct_answer": "Use the Situation, Task, Action, Result (STAR) method to describe a specific past event.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 440,
+    "question": "Tell me about a time you disagreed with a superintendent's decision. (Ex 0)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 441,
+    "question": "Describe a situation where you went above and beyond for safety. (Ex 1)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 442,
+    "question": "How do you handle a client who demands work that isn't in the contract? (Ex 2)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 443,
+    "question": "Give an example of a successful project you led from start to finish. (Ex 3)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 444,
+    "question": "How do you keep your crew motivated during extreme weather conditions? (Ex 4)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 445,
+    "question": "Tell me about a time you disagreed with a superintendent's decision. (Ex 5)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 446,
+    "question": "Describe a situation where you went above and beyond for safety. (Ex 6)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 447,
+    "question": "How do you handle a client who demands work that isn't in the contract? (Ex 7)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 448,
+    "question": "Give an example of a successful project you led from start to finish. (Ex 8)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 449,
+    "question": "How do you keep your crew motivated during extreme weather conditions? (Ex 9)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 450,
+    "question": "Tell me about a time you disagreed with a superintendent's decision. (Ex 10)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 451,
+    "question": "Describe a situation where you went above and beyond for safety. (Ex 11)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 452,
+    "question": "How do you handle a client who demands work that isn't in the contract? (Ex 12)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 453,
+    "question": "Give an example of a successful project you led from start to finish. (Ex 13)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 454,
+    "question": "How do you keep your crew motivated during extreme weather conditions? (Ex 14)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 455,
+    "question": "Tell me about a time you disagreed with a superintendent's decision. (Ex 15)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 456,
+    "question": "Describe a situation where you went above and beyond for safety. (Ex 16)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 457,
+    "question": "How do you handle a client who demands work that isn't in the contract? (Ex 17)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 458,
+    "question": "Give an example of a successful project you led from start to finish. (Ex 18)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 459,
+    "question": "How do you keep your crew motivated during extreme weather conditions? (Ex 19)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 460,
+    "question": "Tell me about a time you disagreed with a superintendent's decision. (Ex 20)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 461,
+    "question": "Describe a situation where you went above and beyond for safety. (Ex 21)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 462,
+    "question": "How do you handle a client who demands work that isn't in the contract? (Ex 22)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 463,
+    "question": "Give an example of a successful project you led from start to finish. (Ex 23)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 464,
+    "question": "How do you keep your crew motivated during extreme weather conditions? (Ex 24)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 465,
+    "question": "Tell me about a time you disagreed with a superintendent's decision. (Ex 25)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 466,
+    "question": "Describe a situation where you went above and beyond for safety. (Ex 26)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 467,
+    "question": "How do you handle a client who demands work that isn't in the contract? (Ex 27)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 468,
+    "question": "Give an example of a successful project you led from start to finish. (Ex 28)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 469,
+    "question": "How do you keep your crew motivated during extreme weather conditions? (Ex 29)",
+    "category": "behavioral",
+    "difficulty": "master",
+    "keywords": [
+      "behavioral",
+      "leadership"
+    ],
+    "correct_answer": "Provide a detailed personal example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 470,
+    "question": "Scenario: You find that a sub-panel has 120V from Neutral to Ground. What are your diagnostic steps?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "scenario",
+      "critical thinking"
+    ],
+    "correct_answer": "Demonstrate a systematic, code-compliant, and safety-first approach.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 471,
+    "question": "Scenario: You are asked to install a temporary power pole for a construction site. Walk me through the requirements.",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "scenario",
+      "critical thinking"
+    ],
+    "correct_answer": "Demonstrate a systematic, code-compliant, and safety-first approach.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 472,
+    "question": "Scenario: A customer reports 'tingling' when they touch their kitchen sink. What is your priority?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "scenario",
+      "critical thinking"
+    ],
+    "correct_answer": "Demonstrate a systematic, code-compliant, and safety-first approach.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 473,
+    "question": "Scenario: You are retrofitting LED drivers into old fluorescent fixtures. What do you need to check?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "scenario",
+      "critical thinking"
+    ],
+    "correct_answer": "Demonstrate a systematic, code-compliant, and safety-first approach.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 474,
+    "question": "Scenario: You arrive at a job and find the blueprints conflict with the actual site conditions. How do you proceed?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "scenario",
+      "critical thinking"
+    ],
+    "correct_answer": "Demonstrate a systematic, code-compliant, and safety-first approach.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 475,
+    "question": "Scenario: A 3-phase motor is running backwards. How do you fix it and why does it work?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "scenario",
+      "critical thinking"
+    ],
+    "correct_answer": "Demonstrate a systematic, code-compliant, and safety-first approach.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 476,
+    "question": "Scenario: You need to size a feeder for a 200HP motor. What tables and factors do you use?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "scenario",
+      "critical thinking"
+    ],
+    "correct_answer": "Demonstrate a systematic, code-compliant, and safety-first approach.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 477,
+    "question": "Scenario: You find evidence of arcing in a junction box but the breaker hasn't tripped. What do you do?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "scenario",
+      "critical thinking"
+    ],
+    "correct_answer": "Demonstrate a systematic, code-compliant, and safety-first approach.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 478,
+    "question": "Scenario #0: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 479,
+    "question": "Scenario #1: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 480,
+    "question": "Scenario #2: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 481,
+    "question": "Scenario #3: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 482,
+    "question": "Scenario #4: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 483,
+    "question": "Scenario #5: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 484,
+    "question": "Scenario #6: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 485,
+    "question": "Scenario #7: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 486,
+    "question": "Scenario #8: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 487,
+    "question": "Scenario #9: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 488,
+    "question": "Scenario #10: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 489,
+    "question": "Scenario #11: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 490,
+    "question": "Scenario #12: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 491,
+    "question": "Scenario #13: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 492,
+    "question": "Scenario #14: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 493,
+    "question": "Scenario #15: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 494,
+    "question": "Scenario #16: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 495,
+    "question": "Scenario #17: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 496,
+    "question": "Scenario #18: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 497,
+    "question": "Scenario #19: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 498,
+    "question": "Scenario #20: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 499,
+    "question": "Scenario #21: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 500,
+    "question": "Scenario #22: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 501,
+    "question": "Scenario #23: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 502,
+    "question": "Scenario #24: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 503,
+    "question": "Scenario #25: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 504,
+    "question": "Scenario #26: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 505,
+    "question": "Scenario #27: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 506,
+    "question": "Scenario #28: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  },
+  {
+    "id": 507,
+    "question": "Scenario #29: A journeyman is refusing to wear PPE for a specific task. How do you manage this?",
+    "category": "scenario",
+    "difficulty": "master",
+    "keywords": [
+      "safety",
+      "management"
+    ],
+    "correct_answer": "Explain the risks, enforce the policy, and lead by example.",
+    "nec_reference": "N/A"
+  }
+]
