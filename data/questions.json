@@ -1,0 +1,57 @@
+[
+  {
+    "id": "q1",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "question": "What is the maximum number of disconnects allowed for a single service?",
+    "answer": "The service disconnecting means shall consist of not more than six switches or six circuit breakers.",
+    "keywords": ["six", "6", "switches", "circuit breakers", "disconnects"],
+    "nec_reference": "230.71",
+    "explanation": "NEC 230.71(A) states that the service disconnecting means for each service shall consist of not more than six switches or sets of circuit breakers."
+  },
+  {
+    "id": "q2",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "question": "Explain Ohm's Law and how it relates voltage, current, and resistance.",
+    "answer": "Ohm's Law states that Voltage (V) equals Current (I) multiplied by Resistance (R), or V = I * R.",
+    "keywords": ["V = I * R", "Voltage", "Current", "Resistance", "multiplied"],
+    "explanation": "Ohm's Law is a fundamental principle in electrical engineering that describes the relationship between these three basic electrical properties."
+  },
+  {
+    "id": "q3",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "question": "What is the purpose of a Lockout/Tagout (LOTO) procedure?",
+    "answer": "To ensure that machines or equipment are properly shut off and not started up again prior to the completion of maintenance or repair work.",
+    "keywords": ["shut off", "maintenance", "repair", "safety", "started up", "prevent"],
+    "explanation": "LOTO is a safety procedure used in industry and research settings to ensure that dangerous machines are properly shut off and not able to be started up again prior to the completion of maintenance or repair work."
+  },
+  {
+    "id": "q4",
+    "category": "troubleshooting",
+    "difficulty": "master",
+    "question": "How would you troubleshoot a motor that is overheating but not tripping its overloads?",
+    "answer": "Check for single-phasing, loose connections, blocked ventilation, or a slight mechanical overload. Also verify if the overload heaters are correctly sized.",
+    "keywords": ["single-phasing", "loose connections", "ventilation", "overload heaters", "sized", "mechanical"],
+    "explanation": "Overheating without tripping overloads can be caused by various issues, including improper cooling or incorrectly set protection."
+  },
+  {
+    "id": "q5",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "question": "What tool is used to measure the diameter of a wire?",
+    "answer": "A wire gauge or a micrometer can be used to measure wire diameter.",
+    "keywords": ["wire gauge", "micrometer", "measure", "diameter"],
+    "explanation": "Wire gauges are standard tools for identifying wire size, while micrometers provide more precise measurements."
+  },
+  {
+    "id": "q6",
+    "category": "management",
+    "difficulty": "master",
+    "question": "How do you handle a situation where a project is falling behind schedule due to material delays?",
+    "answer": "Communicate with stakeholders, look for alternative suppliers, re-prioritize tasks that don't require the delayed materials, and consider overtime if feasible.",
+    "keywords": ["communicate", "stakeholders", "alternative", "re-prioritize", "overtime", "schedule"],
+    "explanation": "Effective management requires proactive communication and flexible resource allocation when facing delays."
+  }
+]
