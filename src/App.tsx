@@ -1,13 +1,16 @@
 import { useState, useEffect } from 'react';
-import type { Question, InterviewQuestion, Category, Difficulty, UserProgress, InterviewSession } from './types';
+import type { Question, InterviewQuestion, Category, Difficulty, UserProgress, InterviewSession, PeerSession, LeaderboardEntry } from './types';
 import { CategorySelector } from './components/CategorySelector';
 import { InterviewSimulator } from './components/InterviewSimulator';
 import { ResultsView } from './components/ResultsView';
 import { Dashboard } from './components/Dashboard';
+import { PeerPractice } from './components/PeerPractice';
+import { Leaderboard } from './components/Leaderboard';
 import { calculateNextReview, scoreToPerformance } from './utils/srs';
+import { updateLeaderboard, checkAchievements } from './utils/achievements';
 import questionsData from '../data/questions.json';
 
-type AppState = 'setup' | 'interview' | 'results' | 'dashboard';
+type AppState = 'setup' | 'interview' | 'results' | 'dashboard' | 'peer-practice' | 'leaderboard';
 
 function App() {
   const [state, setState] = useState<AppState>('setup');
@@ -17,6 +20,8 @@ function App() {
   const [results, setResults] = useState<InterviewQuestion[]>([]);
   const [userProgress, setUserProgress] = useState<Record<string, UserProgress>>({});
   const [sessions, setSessions] = useState<InterviewSession[]>([]);
+  const [peerSessions, setPeerSessions] = useState<PeerSession[]>([]);
+  const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([]);
   const [sessionStartTime, setSessionStartTime] = useState<number>(0);
 
   useEffect(() => {
@@ -27,6 +32,14 @@ function App() {
     const savedSessions = localStorage.getItem('electrician-sessions');
     if (savedSessions) {
       setSessions(JSON.parse(savedSessions));
+    }
+    const savedPeerSessions = localStorage.getItem('electrician-peer-sessions');
+    if (savedPeerSessions) {
+      setPeerSessions(JSON.parse(savedPeerSessions));
+    }
+    const savedLeaderboard = localStorage.getItem('electrician-leaderboard');
+    if (savedLeaderboard) {
+      setLeaderboard(JSON.parse(savedLeaderboard));
     }
   }, []);
 
@@ -87,6 +100,19 @@ function App() {
     setState('results');
   };
 
+  const completePeerInterview = (session: PeerSession) => {
+    const updatedPeerSessions = [session, ...peerSessions];
+    setPeerSessions(updatedPeerSessions);
+    localStorage.setItem('electrician-peer-sessions', JSON.stringify(updatedPeerSessions));
+
+    const newBadges = checkAchievements(session, leaderboard);
+    const updatedLeaderboard = updateLeaderboard(session, leaderboard, newBadges);
+    setLeaderboard(updatedLeaderboard);
+    localStorage.setItem('electrician-leaderboard', JSON.stringify(updatedLeaderboard));
+
+    setState('leaderboard');
+  };
+
   const restart = () => {
     setState('setup');
     setResults([]);
@@ -113,6 +139,18 @@ function App() {
             className={`px-6 py-2 rounded-xl text-sm font-bold shadow-sm transition-all ${state === 'dashboard' ? 'bg-blue-600 text-white' : 'bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-50'}`}
           >
             Analytics
+          </button>
+          <button
+            onClick={() => setState('peer-practice')}
+            className={`px-6 py-2 rounded-xl text-sm font-bold shadow-sm transition-all ${state === 'peer-practice' ? 'bg-blue-600 text-white' : 'bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-50'}`}
+          >
+            Peer Practice
+          </button>
+          <button
+            onClick={() => setState('leaderboard')}
+            className={`px-6 py-2 rounded-xl text-sm font-bold shadow-sm transition-all ${state === 'leaderboard' ? 'bg-blue-600 text-white' : 'bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-50'}`}
+          >
+            Leaderboard
           </button>
         </div>
       </header>
@@ -146,6 +184,19 @@ function App() {
           <Dashboard
             sessions={sessions}
             userProgress={userProgress}
+          />
+        )}
+
+        {state === 'peer-practice' && (
+          <PeerPractice
+            onComplete={completePeerInterview}
+            onCancel={() => setState('setup')}
+          />
+        )}
+
+        {state === 'leaderboard' && (
+          <Leaderboard
+            entries={leaderboard}
           />
         )}
       </main>

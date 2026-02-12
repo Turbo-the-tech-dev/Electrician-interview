@@ -44,3 +44,35 @@ export interface UserProgress {
   repetitions: number;
   nextReview: number;
 }
+
+export interface PeerSession {
+  id: string;
+  date: number;
+  player1: {
+    name: string;
+    score: number;
+    questions: InterviewQuestion[];
+    peerRating: number;
+  };
+  player2: {
+    name: string;
+    score: number;
+    questions: InterviewQuestion[];
+    peerRating: number;
+  };
+}
+
+export interface Achievement {
+  id: string;
+  name: string;
+  description: string;
+  icon: string;
+  unlockedAt?: number;
+}
+
+export interface LeaderboardEntry {
+  name: string;
+  averageScore: number;
+  sessionsCount: number;
+  badges: string[];
+}
