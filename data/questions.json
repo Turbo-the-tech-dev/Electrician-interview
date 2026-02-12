@@ -1,57 +1,1124 @@
 [
   {
-    "id": "q1",
+    "id": "q-1",
     "category": "NEC code",
     "difficulty": "apprentice",
-    "question": "What is the maximum number of disconnects allowed for a single service?",
-    "answer": "The service disconnecting means shall consist of not more than six switches or six circuit breakers.",
-    "keywords": ["six", "6", "switches", "circuit breakers", "disconnects"],
-    "nec_reference": "230.71",
-    "explanation": "NEC 230.71(A) states that the service disconnecting means for each service shall consist of not more than six switches or sets of circuit breakers."
+    "question": "What is the color of the equipment grounding conductor?",
+    "answer": "Green, green with yellow stripes, or bare.",
+    "keywords": [
+      "green",
+      "yellow",
+      "bare"
+    ],
+    "nec_reference": "250.119",
+    "explanation": "This apprentice level question focuses on NEC code."
   },
   {
-    "id": "q2",
+    "id": "q-2",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "question": "What is the color of the equipment grounding conductor? (Scenario 1)",
+    "answer": "Green, green with yellow stripes, or bare.",
+    "keywords": [
+      "green",
+      "yellow",
+      "bare"
+    ],
+    "nec_reference": "250.119",
+    "explanation": "This apprentice level question focuses on NEC code."
+  },
+  {
+    "id": "q-3",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "question": "What is the color of the equipment grounding conductor? (Scenario 2)",
+    "answer": "Green, green with yellow stripes, or bare.",
+    "keywords": [
+      "green",
+      "yellow",
+      "bare"
+    ],
+    "nec_reference": "250.119",
+    "explanation": "This apprentice level question focuses on NEC code."
+  },
+  {
+    "id": "q-4",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "question": "What is the standard voltage for a single-phase residential service in the US?",
+    "answer": "120/240 Volts.",
+    "keywords": [
+      "120/240",
+      "volts",
+      "single-phase"
+    ],
+    "explanation": "This apprentice level question focuses on NEC code."
+  },
+  {
+    "id": "q-5",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "question": "What is the standard voltage for a single-phase residential service in the US? (Scenario 1)",
+    "answer": "120/240 Volts.",
+    "keywords": [
+      "120/240",
+      "volts",
+      "single-phase"
+    ],
+    "explanation": "This apprentice level question focuses on NEC code."
+  },
+  {
+    "id": "q-6",
+    "category": "NEC code",
+    "difficulty": "apprentice",
+    "question": "What is the standard voltage for a single-phase residential service in the US? (Scenario 2)",
+    "answer": "120/240 Volts.",
+    "keywords": [
+      "120/240",
+      "volts",
+      "single-phase"
+    ],
+    "explanation": "This apprentice level question focuses on NEC code."
+  },
+  {
+    "id": "q-7",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "question": "What is the maximum number of disconnects allowed for a single service?",
+    "answer": "Six switches or circuit breakers.",
+    "keywords": [
+      "six",
+      "6",
+      "switches",
+      "circuit breakers"
+    ],
+    "nec_reference": "230.71",
+    "explanation": "This journeyman level question focuses on NEC code."
+  },
+  {
+    "id": "q-8",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "question": "What is the maximum number of disconnects allowed for a single service? (Scenario 1)",
+    "answer": "Six switches or circuit breakers.",
+    "keywords": [
+      "six",
+      "6",
+      "switches",
+      "circuit breakers"
+    ],
+    "nec_reference": "230.71",
+    "explanation": "This journeyman level question focuses on NEC code."
+  },
+  {
+    "id": "q-9",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "question": "What is the maximum number of disconnects allowed for a single service? (Scenario 2)",
+    "answer": "Six switches or circuit breakers.",
+    "keywords": [
+      "six",
+      "6",
+      "switches",
+      "circuit breakers"
+    ],
+    "nec_reference": "230.71",
+    "explanation": "This journeyman level question focuses on NEC code."
+  },
+  {
+    "id": "q-10",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "question": "What is the minimum cover requirement for direct burial cables at 600V or less in a residential driveway?",
+    "answer": "18 inches.",
+    "keywords": [
+      "18 inches",
+      "driveway",
+      "burial"
+    ],
+    "nec_reference": "Table 300.5",
+    "explanation": "This journeyman level question focuses on NEC code."
+  },
+  {
+    "id": "q-11",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "question": "What is the minimum cover requirement for direct burial cables at 600V or less in a residential driveway? (Scenario 1)",
+    "answer": "18 inches.",
+    "keywords": [
+      "18 inches",
+      "driveway",
+      "burial"
+    ],
+    "nec_reference": "Table 300.5",
+    "explanation": "This journeyman level question focuses on NEC code."
+  },
+  {
+    "id": "q-12",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "question": "What is the minimum cover requirement for direct burial cables at 600V or less in a residential driveway? (Scenario 2)",
+    "answer": "18 inches.",
+    "keywords": [
+      "18 inches",
+      "driveway",
+      "burial"
+    ],
+    "nec_reference": "Table 300.5",
+    "explanation": "This journeyman level question focuses on NEC code."
+  },
+  {
+    "id": "q-13",
+    "category": "NEC code",
+    "difficulty": "master",
+    "question": "Calculate the minimum service load for a 1500 sq ft dwelling with standard appliances.",
+    "answer": "Requires calculation based on Art 220, typically around 100-150A.",
+    "keywords": [
+      "Art 220",
+      "calculation",
+      "load"
+    ],
+    "nec_reference": "Article 220",
+    "explanation": "This master level question focuses on NEC code."
+  },
+  {
+    "id": "q-14",
+    "category": "NEC code",
+    "difficulty": "master",
+    "question": "Calculate the minimum service load for a 1500 sq ft dwelling with standard appliances. (Scenario 1)",
+    "answer": "Requires calculation based on Art 220, typically around 100-150A.",
+    "keywords": [
+      "Art 220",
+      "calculation",
+      "load"
+    ],
+    "nec_reference": "Article 220",
+    "explanation": "This master level question focuses on NEC code."
+  },
+  {
+    "id": "q-15",
+    "category": "NEC code",
+    "difficulty": "master",
+    "question": "Calculate the minimum service load for a 1500 sq ft dwelling with standard appliances. (Scenario 2)",
+    "answer": "Requires calculation based on Art 220, typically around 100-150A.",
+    "keywords": [
+      "Art 220",
+      "calculation",
+      "load"
+    ],
+    "nec_reference": "Article 220",
+    "explanation": "This master level question focuses on NEC code."
+  },
+  {
+    "id": "q-16",
+    "category": "NEC code",
+    "difficulty": "master",
+    "question": "Explain the requirements for a high-leg delta transformer connection grounding.",
+    "answer": "The midpoint of one phase must be grounded, and the high leg must be identified with orange color.",
+    "keywords": [
+      "high-leg",
+      "orange",
+      "grounded",
+      "delta"
+    ],
+    "nec_reference": "110.15",
+    "explanation": "This master level question focuses on NEC code."
+  },
+  {
+    "id": "q-17",
+    "category": "NEC code",
+    "difficulty": "master",
+    "question": "Explain the requirements for a high-leg delta transformer connection grounding. (Scenario 1)",
+    "answer": "The midpoint of one phase must be grounded, and the high leg must be identified with orange color.",
+    "keywords": [
+      "high-leg",
+      "orange",
+      "grounded",
+      "delta"
+    ],
+    "nec_reference": "110.15",
+    "explanation": "This master level question focuses on NEC code."
+  },
+  {
+    "id": "q-18",
+    "category": "NEC code",
+    "difficulty": "master",
+    "question": "Explain the requirements for a high-leg delta transformer connection grounding. (Scenario 2)",
+    "answer": "The midpoint of one phase must be grounded, and the high leg must be identified with orange color.",
+    "keywords": [
+      "high-leg",
+      "orange",
+      "grounded",
+      "delta"
+    ],
+    "nec_reference": "110.15",
+    "explanation": "This master level question focuses on NEC code."
+  },
+  {
+    "id": "q-19",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "question": "What is Ohm's Law?",
+    "answer": "V = I * R, Voltage equals current times resistance.",
+    "keywords": [
+      "V=IR",
+      "Voltage",
+      "Current",
+      "Resistance"
+    ],
+    "explanation": "This apprentice level question focuses on theory."
+  },
+  {
+    "id": "q-20",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "question": "What is Ohm's Law? (Scenario 1)",
+    "answer": "V = I * R, Voltage equals current times resistance.",
+    "keywords": [
+      "V=IR",
+      "Voltage",
+      "Current",
+      "Resistance"
+    ],
+    "explanation": "This apprentice level question focuses on theory."
+  },
+  {
+    "id": "q-21",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "question": "What is Ohm's Law? (Scenario 2)",
+    "answer": "V = I * R, Voltage equals current times resistance.",
+    "keywords": [
+      "V=IR",
+      "Voltage",
+      "Current",
+      "Resistance"
+    ],
+    "explanation": "This apprentice level question focuses on theory."
+  },
+  {
+    "id": "q-22",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "question": "What is the unit of electrical power?",
+    "answer": "The Watt (W).",
+    "keywords": [
+      "Watt",
+      "W",
+      "power"
+    ],
+    "explanation": "This apprentice level question focuses on theory."
+  },
+  {
+    "id": "q-23",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "question": "What is the unit of electrical power? (Scenario 1)",
+    "answer": "The Watt (W).",
+    "keywords": [
+      "Watt",
+      "W",
+      "power"
+    ],
+    "explanation": "This apprentice level question focuses on theory."
+  },
+  {
+    "id": "q-24",
+    "category": "theory",
+    "difficulty": "apprentice",
+    "question": "What is the unit of electrical power? (Scenario 2)",
+    "answer": "The Watt (W).",
+    "keywords": [
+      "Watt",
+      "W",
+      "power"
+    ],
+    "explanation": "This apprentice level question focuses on theory."
+  },
+  {
+    "id": "q-25",
     "category": "theory",
     "difficulty": "journeyman",
-    "question": "Explain Ohm's Law and how it relates voltage, current, and resistance.",
-    "answer": "Ohm's Law states that Voltage (V) equals Current (I) multiplied by Resistance (R), or V = I * R.",
-    "keywords": ["V = I * R", "Voltage", "Current", "Resistance", "multiplied"],
-    "explanation": "Ohm's Law is a fundamental principle in electrical engineering that describes the relationship between these three basic electrical properties."
+    "question": "What is the total resistance of two 10-ohm resistors in parallel?",
+    "answer": "5 ohms.",
+    "keywords": [
+      "5 ohms",
+      "parallel",
+      "resistance"
+    ],
+    "explanation": "This journeyman level question focuses on theory."
   },
   {
-    "id": "q3",
-    "category": "safety",
-    "difficulty": "apprentice",
-    "question": "What is the purpose of a Lockout/Tagout (LOTO) procedure?",
-    "answer": "To ensure that machines or equipment are properly shut off and not started up again prior to the completion of maintenance or repair work.",
-    "keywords": ["shut off", "maintenance", "repair", "safety", "started up", "prevent"],
-    "explanation": "LOTO is a safety procedure used in industry and research settings to ensure that dangerous machines are properly shut off and not able to be started up again prior to the completion of maintenance or repair work."
+    "id": "q-26",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "question": "What is the total resistance of two 10-ohm resistors in parallel? (Scenario 1)",
+    "answer": "5 ohms.",
+    "keywords": [
+      "5 ohms",
+      "parallel",
+      "resistance"
+    ],
+    "explanation": "This journeyman level question focuses on theory."
   },
   {
-    "id": "q4",
-    "category": "troubleshooting",
+    "id": "q-27",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "question": "What is the total resistance of two 10-ohm resistors in parallel? (Scenario 2)",
+    "answer": "5 ohms.",
+    "keywords": [
+      "5 ohms",
+      "parallel",
+      "resistance"
+    ],
+    "explanation": "This journeyman level question focuses on theory."
+  },
+  {
+    "id": "q-28",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "question": "Explain Power Factor and why it matters.",
+    "answer": "Ratio of real power to apparent power; affects efficiency.",
+    "keywords": [
+      "real",
+      "apparent",
+      "ratio",
+      "efficiency"
+    ],
+    "explanation": "This journeyman level question focuses on theory."
+  },
+  {
+    "id": "q-29",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "question": "Explain Power Factor and why it matters. (Scenario 1)",
+    "answer": "Ratio of real power to apparent power; affects efficiency.",
+    "keywords": [
+      "real",
+      "apparent",
+      "ratio",
+      "efficiency"
+    ],
+    "explanation": "This journeyman level question focuses on theory."
+  },
+  {
+    "id": "q-30",
+    "category": "theory",
+    "difficulty": "journeyman",
+    "question": "Explain Power Factor and why it matters. (Scenario 2)",
+    "answer": "Ratio of real power to apparent power; affects efficiency.",
+    "keywords": [
+      "real",
+      "apparent",
+      "ratio",
+      "efficiency"
+    ],
+    "explanation": "This journeyman level question focuses on theory."
+  },
+  {
+    "id": "q-31",
+    "category": "theory",
     "difficulty": "master",
-    "question": "How would you troubleshoot a motor that is overheating but not tripping its overloads?",
-    "answer": "Check for single-phasing, loose connections, blocked ventilation, or a slight mechanical overload. Also verify if the overload heaters are correctly sized.",
-    "keywords": ["single-phasing", "loose connections", "ventilation", "overload heaters", "sized", "mechanical"],
-    "explanation": "Overheating without tripping overloads can be caused by various issues, including improper cooling or incorrectly set protection."
+    "question": "Calculate the total impedance in a circuit with 10 ohms resistance and 10 ohms inductive reactance.",
+    "answer": "Z = sqrt(R^2 + XL^2) = 14.14 ohms.",
+    "keywords": [
+      "14.14",
+      "impedance",
+      "sqrt"
+    ],
+    "explanation": "This master level question focuses on theory."
   },
   {
-    "id": "q5",
+    "id": "q-32",
+    "category": "theory",
+    "difficulty": "master",
+    "question": "Calculate the total impedance in a circuit with 10 ohms resistance and 10 ohms inductive reactance. (Scenario 1)",
+    "answer": "Z = sqrt(R^2 + XL^2) = 14.14 ohms.",
+    "keywords": [
+      "14.14",
+      "impedance",
+      "sqrt"
+    ],
+    "explanation": "This master level question focuses on theory."
+  },
+  {
+    "id": "q-33",
+    "category": "theory",
+    "difficulty": "master",
+    "question": "Calculate the total impedance in a circuit with 10 ohms resistance and 10 ohms inductive reactance. (Scenario 2)",
+    "answer": "Z = sqrt(R^2 + XL^2) = 14.14 ohms.",
+    "keywords": [
+      "14.14",
+      "impedance",
+      "sqrt"
+    ],
+    "explanation": "This master level question focuses on theory."
+  },
+  {
+    "id": "q-34",
+    "category": "theory",
+    "difficulty": "master",
+    "question": "Describe the effect of harmonics on the neutral conductor of a 4-wire wye system.",
+    "answer": "Triplen harmonics add up in the neutral, potentially causing overheating.",
+    "keywords": [
+      "harmonics",
+      "neutral",
+      "triplen",
+      "overheating"
+    ],
+    "explanation": "This master level question focuses on theory."
+  },
+  {
+    "id": "q-35",
+    "category": "theory",
+    "difficulty": "master",
+    "question": "Describe the effect of harmonics on the neutral conductor of a 4-wire wye system. (Scenario 1)",
+    "answer": "Triplen harmonics add up in the neutral, potentially causing overheating.",
+    "keywords": [
+      "harmonics",
+      "neutral",
+      "triplen",
+      "overheating"
+    ],
+    "explanation": "This master level question focuses on theory."
+  },
+  {
+    "id": "q-36",
+    "category": "theory",
+    "difficulty": "master",
+    "question": "Describe the effect of harmonics on the neutral conductor of a 4-wire wye system. (Scenario 2)",
+    "answer": "Triplen harmonics add up in the neutral, potentially causing overheating.",
+    "keywords": [
+      "harmonics",
+      "neutral",
+      "triplen",
+      "overheating"
+    ],
+    "explanation": "This master level question focuses on theory."
+  },
+  {
+    "id": "q-37",
     "category": "practical",
     "difficulty": "apprentice",
-    "question": "What tool is used to measure the diameter of a wire?",
-    "answer": "A wire gauge or a micrometer can be used to measure wire diameter.",
-    "keywords": ["wire gauge", "micrometer", "measure", "diameter"],
-    "explanation": "Wire gauges are standard tools for identifying wire size, while micrometers provide more precise measurements."
+    "question": "How do you bend a 90-degree stub-up in 1/2\" EMT?",
+    "answer": "Place bender mark at the desired height minus the deduct (5\").",
+    "keywords": [
+      "bender",
+      "deduct",
+      "5 inches",
+      "EMT"
+    ],
+    "explanation": "This apprentice level question focuses on practical."
   },
   {
-    "id": "q6",
+    "id": "q-38",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "question": "How do you bend a 90-degree stub-up in 1/2\" EMT? (Scenario 1)",
+    "answer": "Place bender mark at the desired height minus the deduct (5\").",
+    "keywords": [
+      "bender",
+      "deduct",
+      "5 inches",
+      "EMT"
+    ],
+    "explanation": "This apprentice level question focuses on practical."
+  },
+  {
+    "id": "q-39",
+    "category": "practical",
+    "difficulty": "apprentice",
+    "question": "How do you bend a 90-degree stub-up in 1/2\" EMT? (Scenario 2)",
+    "answer": "Place bender mark at the desired height minus the deduct (5\").",
+    "keywords": [
+      "bender",
+      "deduct",
+      "5 inches",
+      "EMT"
+    ],
+    "explanation": "This apprentice level question focuses on practical."
+  },
+  {
+    "id": "q-40",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "question": "How do you determine the correct wire size for a 50A circuit?",
+    "answer": "Use Table 310.15(B)(16); usually 6 AWG copper or 4 AWG aluminum.",
+    "keywords": [
+      "Table 310.15",
+      "wire size",
+      "50A"
+    ],
+    "explanation": "This journeyman level question focuses on practical."
+  },
+  {
+    "id": "q-41",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "question": "How do you determine the correct wire size for a 50A circuit? (Scenario 1)",
+    "answer": "Use Table 310.15(B)(16); usually 6 AWG copper or 4 AWG aluminum.",
+    "keywords": [
+      "Table 310.15",
+      "wire size",
+      "50A"
+    ],
+    "explanation": "This journeyman level question focuses on practical."
+  },
+  {
+    "id": "q-42",
+    "category": "practical",
+    "difficulty": "journeyman",
+    "question": "How do you determine the correct wire size for a 50A circuit? (Scenario 2)",
+    "answer": "Use Table 310.15(B)(16); usually 6 AWG copper or 4 AWG aluminum.",
+    "keywords": [
+      "Table 310.15",
+      "wire size",
+      "50A"
+    ],
+    "explanation": "This journeyman level question focuses on practical."
+  },
+  {
+    "id": "q-43",
+    "category": "practical",
+    "difficulty": "master",
+    "question": "Describe the procedure for testing the insulation resistance of a large motor.",
+    "answer": "Use a megohmmeter (megger) to apply a high voltage and measure leakage current.",
+    "keywords": [
+      "megohmmeter",
+      "megger",
+      "insulation",
+      "resistance"
+    ],
+    "explanation": "This master level question focuses on practical."
+  },
+  {
+    "id": "q-44",
+    "category": "practical",
+    "difficulty": "master",
+    "question": "Describe the procedure for testing the insulation resistance of a large motor. (Scenario 1)",
+    "answer": "Use a megohmmeter (megger) to apply a high voltage and measure leakage current.",
+    "keywords": [
+      "megohmmeter",
+      "megger",
+      "insulation",
+      "resistance"
+    ],
+    "explanation": "This master level question focuses on practical."
+  },
+  {
+    "id": "q-45",
+    "category": "practical",
+    "difficulty": "master",
+    "question": "Describe the procedure for testing the insulation resistance of a large motor. (Scenario 2)",
+    "answer": "Use a megohmmeter (megger) to apply a high voltage and measure leakage current.",
+    "keywords": [
+      "megohmmeter",
+      "megger",
+      "insulation",
+      "resistance"
+    ],
+    "explanation": "This master level question focuses on practical."
+  },
+  {
+    "id": "q-46",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "question": "What does PPE stand for?",
+    "answer": "Personal Protective Equipment.",
+    "keywords": [
+      "Personal",
+      "Protective",
+      "Equipment"
+    ],
+    "explanation": "This apprentice level question focuses on safety."
+  },
+  {
+    "id": "q-47",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "question": "What does PPE stand for? (Scenario 1)",
+    "answer": "Personal Protective Equipment.",
+    "keywords": [
+      "Personal",
+      "Protective",
+      "Equipment"
+    ],
+    "explanation": "This apprentice level question focuses on safety."
+  },
+  {
+    "id": "q-48",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "question": "What does PPE stand for? (Scenario 2)",
+    "answer": "Personal Protective Equipment.",
+    "keywords": [
+      "Personal",
+      "Protective",
+      "Equipment"
+    ],
+    "explanation": "This apprentice level question focuses on safety."
+  },
+  {
+    "id": "q-49",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "question": "What is the first thing you should do if someone is being electrocuted?",
+    "answer": "Disconnect the power source if safe, or use a non-conductive object to move them.",
+    "keywords": [
+      "disconnect",
+      "power",
+      "non-conductive"
+    ],
+    "explanation": "This apprentice level question focuses on safety."
+  },
+  {
+    "id": "q-50",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "question": "What is the first thing you should do if someone is being electrocuted? (Scenario 1)",
+    "answer": "Disconnect the power source if safe, or use a non-conductive object to move them.",
+    "keywords": [
+      "disconnect",
+      "power",
+      "non-conductive"
+    ],
+    "explanation": "This apprentice level question focuses on safety."
+  },
+  {
+    "id": "q-51",
+    "category": "safety",
+    "difficulty": "apprentice",
+    "question": "What is the first thing you should do if someone is being electrocuted? (Scenario 2)",
+    "answer": "Disconnect the power source if safe, or use a non-conductive object to move them.",
+    "keywords": [
+      "disconnect",
+      "power",
+      "non-conductive"
+    ],
+    "explanation": "This apprentice level question focuses on safety."
+  },
+  {
+    "id": "q-52",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "question": "What is the purpose of a Lockout/Tagout (LOTO) procedure?",
+    "answer": "To ensure equipment is de-energized and cannot be started while being worked on.",
+    "keywords": [
+      "de-energized",
+      "started",
+      "Lockout",
+      "Tagout"
+    ],
+    "explanation": "This journeyman level question focuses on safety."
+  },
+  {
+    "id": "q-53",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "question": "What is the purpose of a Lockout/Tagout (LOTO) procedure? (Scenario 1)",
+    "answer": "To ensure equipment is de-energized and cannot be started while being worked on.",
+    "keywords": [
+      "de-energized",
+      "started",
+      "Lockout",
+      "Tagout"
+    ],
+    "explanation": "This journeyman level question focuses on safety."
+  },
+  {
+    "id": "q-54",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "question": "What is the purpose of a Lockout/Tagout (LOTO) procedure? (Scenario 2)",
+    "answer": "To ensure equipment is de-energized and cannot be started while being worked on.",
+    "keywords": [
+      "de-energized",
+      "started",
+      "Lockout",
+      "Tagout"
+    ],
+    "explanation": "This journeyman level question focuses on safety."
+  },
+  {
+    "id": "q-55",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "question": "When is a GFCI required for temporary power on a construction site?",
+    "answer": "For all 125-volt, single-phase, 15, 20, and 30-amp receptacle outlets.",
+    "keywords": [
+      "temporary",
+      "125-volt",
+      "GFCI"
+    ],
+    "nec_reference": "590.6",
+    "explanation": "This journeyman level question focuses on safety."
+  },
+  {
+    "id": "q-56",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "question": "When is a GFCI required for temporary power on a construction site? (Scenario 1)",
+    "answer": "For all 125-volt, single-phase, 15, 20, and 30-amp receptacle outlets.",
+    "keywords": [
+      "temporary",
+      "125-volt",
+      "GFCI"
+    ],
+    "nec_reference": "590.6",
+    "explanation": "This journeyman level question focuses on safety."
+  },
+  {
+    "id": "q-57",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "question": "When is a GFCI required for temporary power on a construction site? (Scenario 2)",
+    "answer": "For all 125-volt, single-phase, 15, 20, and 30-amp receptacle outlets.",
+    "keywords": [
+      "temporary",
+      "125-volt",
+      "GFCI"
+    ],
+    "nec_reference": "590.6",
+    "explanation": "This journeyman level question focuses on safety."
+  },
+  {
+    "id": "q-58",
+    "category": "safety",
+    "difficulty": "master",
+    "question": "Explain the difference between limited and restricted approach boundaries.",
+    "answer": "Limited is for unqualified persons with supervision; restricted is for qualified persons only.",
+    "keywords": [
+      "limited",
+      "restricted",
+      "boundaries",
+      "approach"
+    ],
+    "nec_reference": "NFPA 70E",
+    "explanation": "This master level question focuses on safety."
+  },
+  {
+    "id": "q-59",
+    "category": "safety",
+    "difficulty": "master",
+    "question": "Explain the difference between limited and restricted approach boundaries. (Scenario 1)",
+    "answer": "Limited is for unqualified persons with supervision; restricted is for qualified persons only.",
+    "keywords": [
+      "limited",
+      "restricted",
+      "boundaries",
+      "approach"
+    ],
+    "nec_reference": "NFPA 70E",
+    "explanation": "This master level question focuses on safety."
+  },
+  {
+    "id": "q-60",
+    "category": "safety",
+    "difficulty": "master",
+    "question": "Explain the difference between limited and restricted approach boundaries. (Scenario 2)",
+    "answer": "Limited is for unqualified persons with supervision; restricted is for qualified persons only.",
+    "keywords": [
+      "limited",
+      "restricted",
+      "boundaries",
+      "approach"
+    ],
+    "nec_reference": "NFPA 70E",
+    "explanation": "This master level question focuses on safety."
+  },
+  {
+    "id": "q-61",
+    "category": "safety",
+    "difficulty": "master",
+    "question": "What are the requirements for an Arc Flash Hazard Analysis?",
+    "answer": "Determine the arc flash boundary and the required level of PPE.",
+    "keywords": [
+      "arc flash",
+      "boundary",
+      "PPE"
+    ],
+    "nec_reference": "NFPA 70E",
+    "explanation": "This master level question focuses on safety."
+  },
+  {
+    "id": "q-62",
+    "category": "safety",
+    "difficulty": "master",
+    "question": "What are the requirements for an Arc Flash Hazard Analysis? (Scenario 1)",
+    "answer": "Determine the arc flash boundary and the required level of PPE.",
+    "keywords": [
+      "arc flash",
+      "boundary",
+      "PPE"
+    ],
+    "nec_reference": "NFPA 70E",
+    "explanation": "This master level question focuses on safety."
+  },
+  {
+    "id": "q-63",
+    "category": "safety",
+    "difficulty": "master",
+    "question": "What are the requirements for an Arc Flash Hazard Analysis? (Scenario 2)",
+    "answer": "Determine the arc flash boundary and the required level of PPE.",
+    "keywords": [
+      "arc flash",
+      "boundary",
+      "PPE"
+    ],
+    "nec_reference": "NFPA 70E",
+    "explanation": "This master level question focuses on safety."
+  },
+  {
+    "id": "q-64",
+    "category": "troubleshooting",
+    "difficulty": "apprentice",
+    "question": "What is the first step when a circuit breaker trips?",
+    "answer": "Identify the circuit and check for overloaded appliances or short circuits.",
+    "keywords": [
+      "identify",
+      "overloaded",
+      "short circuit"
+    ],
+    "explanation": "This apprentice level question focuses on troubleshooting."
+  },
+  {
+    "id": "q-65",
+    "category": "troubleshooting",
+    "difficulty": "apprentice",
+    "question": "What is the first step when a circuit breaker trips? (Scenario 1)",
+    "answer": "Identify the circuit and check for overloaded appliances or short circuits.",
+    "keywords": [
+      "identify",
+      "overloaded",
+      "short circuit"
+    ],
+    "explanation": "This apprentice level question focuses on troubleshooting."
+  },
+  {
+    "id": "q-66",
+    "category": "troubleshooting",
+    "difficulty": "apprentice",
+    "question": "What is the first step when a circuit breaker trips? (Scenario 2)",
+    "answer": "Identify the circuit and check for overloaded appliances or short circuits.",
+    "keywords": [
+      "identify",
+      "overloaded",
+      "short circuit"
+    ],
+    "explanation": "This apprentice level question focuses on troubleshooting."
+  },
+  {
+    "id": "q-67",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "question": "A 3-phase motor is overheating. What are possible causes?",
+    "answer": "Phase imbalance, overload, poor ventilation, or bearing failure.",
+    "keywords": [
+      "imbalance",
+      "overload",
+      "ventilation",
+      "bearing"
+    ],
+    "explanation": "This journeyman level question focuses on troubleshooting."
+  },
+  {
+    "id": "q-68",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "question": "A 3-phase motor is overheating. What are possible causes? (Scenario 1)",
+    "answer": "Phase imbalance, overload, poor ventilation, or bearing failure.",
+    "keywords": [
+      "imbalance",
+      "overload",
+      "ventilation",
+      "bearing"
+    ],
+    "explanation": "This journeyman level question focuses on troubleshooting."
+  },
+  {
+    "id": "q-69",
+    "category": "troubleshooting",
+    "difficulty": "journeyman",
+    "question": "A 3-phase motor is overheating. What are possible causes? (Scenario 2)",
+    "answer": "Phase imbalance, overload, poor ventilation, or bearing failure.",
+    "keywords": [
+      "imbalance",
+      "overload",
+      "ventilation",
+      "bearing"
+    ],
+    "explanation": "This journeyman level question focuses on troubleshooting."
+  },
+  {
+    "id": "q-70",
+    "category": "troubleshooting",
+    "difficulty": "master",
+    "question": "How do you diagnose an intermittent ground fault in a complex industrial control system?",
+    "answer": "Use a recording ammeter or specialized ground fault detectors to track leakage over time.",
+    "keywords": [
+      "recording ammeter",
+      "leakage",
+      "detectors",
+      "intermittent"
+    ],
+    "explanation": "This master level question focuses on troubleshooting."
+  },
+  {
+    "id": "q-71",
+    "category": "troubleshooting",
+    "difficulty": "master",
+    "question": "How do you diagnose an intermittent ground fault in a complex industrial control system? (Scenario 1)",
+    "answer": "Use a recording ammeter or specialized ground fault detectors to track leakage over time.",
+    "keywords": [
+      "recording ammeter",
+      "leakage",
+      "detectors",
+      "intermittent"
+    ],
+    "explanation": "This master level question focuses on troubleshooting."
+  },
+  {
+    "id": "q-72",
+    "category": "troubleshooting",
+    "difficulty": "master",
+    "question": "How do you diagnose an intermittent ground fault in a complex industrial control system? (Scenario 2)",
+    "answer": "Use a recording ammeter or specialized ground fault detectors to track leakage over time.",
+    "keywords": [
+      "recording ammeter",
+      "leakage",
+      "detectors",
+      "intermittent"
+    ],
+    "explanation": "This master level question focuses on troubleshooting."
+  },
+  {
+    "id": "q-73",
+    "category": "management",
+    "difficulty": "apprentice",
+    "question": "Why is it important to fill out a daily work log?",
+    "answer": "To track progress, document issues, and ensure accurate billing and payroll.",
+    "keywords": [
+      "track",
+      "document",
+      "billing",
+      "payroll"
+    ],
+    "explanation": "This apprentice level question focuses on management."
+  },
+  {
+    "id": "q-74",
+    "category": "management",
+    "difficulty": "apprentice",
+    "question": "Why is it important to fill out a daily work log? (Scenario 1)",
+    "answer": "To track progress, document issues, and ensure accurate billing and payroll.",
+    "keywords": [
+      "track",
+      "document",
+      "billing",
+      "payroll"
+    ],
+    "explanation": "This apprentice level question focuses on management."
+  },
+  {
+    "id": "q-75",
+    "category": "management",
+    "difficulty": "apprentice",
+    "question": "Why is it important to fill out a daily work log? (Scenario 2)",
+    "answer": "To track progress, document issues, and ensure accurate billing and payroll.",
+    "keywords": [
+      "track",
+      "document",
+      "billing",
+      "payroll"
+    ],
+    "explanation": "This apprentice level question focuses on management."
+  },
+  {
+    "id": "q-76",
+    "category": "management",
+    "difficulty": "journeyman",
+    "question": "How do you handle a change order request from a customer?",
+    "answer": "Document the change, estimate the cost and time impact, and get written approval.",
+    "keywords": [
+      "document",
+      "estimate",
+      "approval",
+      "change order"
+    ],
+    "explanation": "This journeyman level question focuses on management."
+  },
+  {
+    "id": "q-77",
+    "category": "management",
+    "difficulty": "journeyman",
+    "question": "How do you handle a change order request from a customer? (Scenario 1)",
+    "answer": "Document the change, estimate the cost and time impact, and get written approval.",
+    "keywords": [
+      "document",
+      "estimate",
+      "approval",
+      "change order"
+    ],
+    "explanation": "This journeyman level question focuses on management."
+  },
+  {
+    "id": "q-78",
+    "category": "management",
+    "difficulty": "journeyman",
+    "question": "How do you handle a change order request from a customer? (Scenario 2)",
+    "answer": "Document the change, estimate the cost and time impact, and get written approval.",
+    "keywords": [
+      "document",
+      "estimate",
+      "approval",
+      "change order"
+    ],
+    "explanation": "This journeyman level question focuses on management."
+  },
+  {
+    "id": "q-79",
     "category": "management",
     "difficulty": "master",
-    "question": "How do you handle a situation where a project is falling behind schedule due to material delays?",
-    "answer": "Communicate with stakeholders, look for alternative suppliers, re-prioritize tasks that don't require the delayed materials, and consider overtime if feasible.",
-    "keywords": ["communicate", "stakeholders", "alternative", "re-prioritize", "overtime", "schedule"],
-    "explanation": "Effective management requires proactive communication and flexible resource allocation when facing delays."
+    "question": "What are the key components of a comprehensive safety management program?",
+    "answer": "Training, hazard identification, PPE policy, incident reporting, and regular audits.",
+    "keywords": [
+      "training",
+      "hazard",
+      "PPE",
+      "reporting",
+      "audits"
+    ],
+    "explanation": "This master level question focuses on management."
+  },
+  {
+    "id": "q-80",
+    "category": "management",
+    "difficulty": "master",
+    "question": "What are the key components of a comprehensive safety management program? (Scenario 1)",
+    "answer": "Training, hazard identification, PPE policy, incident reporting, and regular audits.",
+    "keywords": [
+      "training",
+      "hazard",
+      "PPE",
+      "reporting",
+      "audits"
+    ],
+    "explanation": "This master level question focuses on management."
+  },
+  {
+    "id": "q-81",
+    "category": "management",
+    "difficulty": "master",
+    "question": "What are the key components of a comprehensive safety management program? (Scenario 2)",
+    "answer": "Training, hazard identification, PPE policy, incident reporting, and regular audits.",
+    "keywords": [
+      "training",
+      "hazard",
+      "PPE",
+      "reporting",
+      "audits"
+    ],
+    "explanation": "This master level question focuses on management."
   }
 ]

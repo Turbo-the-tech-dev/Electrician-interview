@@ -1,0 +1,89 @@
+{
+  "version": "1.0.0",
+  "modules": [
+    {
+      "id": "m1",
+      "title": "DC Fundamentals",
+      "topics": [
+        {
+          "id": "t1",
+          "title": "Ohm's Law",
+          "description": "Relationship between voltage, current, and resistance.",
+          "keyConcepts": ["Voltage (V)", "Current (I)", "Resistance (R)", "V = I * R"]
+        },
+        {
+          "id": "t2",
+          "title": "Series and Parallel Circuits",
+          "description": "Calculations for total resistance, voltage drops, and branch currents.",
+          "keyConcepts": ["Kirchhoff's Laws", "Voltage Divider", "Current Divider"]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "AC Fundamentals",
+      "topics": [
+        {
+          "id": "t3",
+          "title": "Reactance and Impedance",
+          "description": "Inductive and capacitive reactance in AC circuits.",
+          "keyConcepts": ["Inductance (L)", "Capacitance (C)", "Reactance (X)", "Impedance (Z)"]
+        },
+        {
+          "id": "t4",
+          "title": "Power Factor",
+          "description": "Relationship between real, reactive, and apparent power.",
+          "keyConcepts": ["Real Power (W)", "Reactive Power (VAR)", "Apparent Power (VA)", "Power Factor (PF)"]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Three-Phase Systems",
+      "topics": [
+        {
+          "id": "t5",
+          "title": "Wye and Delta Connections",
+          "description": "Voltage and current relationships in three-phase configurations.",
+          "keyConcepts": ["Line Voltage", "Phase Voltage", "Line Current", "Phase Current"]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Transformers and Motors",
+      "topics": [
+        {
+          "id": "t6",
+          "title": "Transformer Theory",
+          "description": "Mutual induction and turns ratio calculations.",
+          "keyConcepts": ["Step-up/Step-down", "Turns Ratio", "VA Rating"]
+        },
+        {
+          "id": "t7",
+          "title": "Motor Fundamentals",
+          "description": "Operating principles of AC and DC motors.",
+          "keyConcepts": ["Torque", "Slip", "Synchronous Speed"]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Grounding and Harmonics",
+      "topics": [
+        {
+          "id": "t8",
+          "title": "Grounding and Bonding",
+          "description": "Safety grounding systems and equipment bonding.",
+          "keyConcepts": ["Grounding Electrode", "Bonding Jumper", "Fault Path"]
+        },
+        {
+          "id": "t9",
+          "title": "Power Quality and Harmonics",
+          "description": "Impact of non-linear loads on electrical systems.",
+          "keyConcepts": ["THD", "Non-linear Loads", "Triplen Harmonics"]
+        }
+      ]
+    }
+  ]
+}

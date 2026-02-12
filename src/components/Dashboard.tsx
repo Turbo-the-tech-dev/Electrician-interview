@@ -5,9 +5,10 @@ import { BarChart, TrendingUp, AlertTriangle, Lightbulb, Download, Calendar } fr
 interface DashboardProps {
   sessions: InterviewSession[];
   userProgress: Record<string, UserProgress>;
+  dueCount: number;
 }
 
-export const Dashboard: React.FC<DashboardProps> = ({ sessions, userProgress }) => {
+export const Dashboard: React.FC<DashboardProps> = ({ sessions, userProgress, dueCount }) => {
   // 1. Data Processing Logic
   const categories: Category[] = [
     'NEC code', 'theory', 'practical', 'safety', 'troubleshooting', 'management', 'behavioral', 'scenario'
@@ -87,7 +88,21 @@ export const Dashboard: React.FC<DashboardProps> = ({ sessions, userProgress }) 
         </button>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+        {/* SRS Status */}
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 flex flex-col items-center justify-center text-center">
+          <div className="text-blue-600 mb-2">
+            <Calendar size={32} />
+          </div>
+          <div className="text-3xl font-black mb-1">{dueCount}</div>
+          <div className="text-sm font-bold text-gray-500 uppercase tracking-wider">Due for Review</div>
+          {dueCount > 0 ? (
+            <p className="text-xs text-blue-600 mt-2 font-medium">Spaced repetition priority</p>
+          ) : (
+            <p className="text-xs text-green-600 mt-2 font-medium">All caught up!</p>
+          )}
+        </div>
+
         {/* Category Performance */}
         <div className="md:col-span-2 bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700">
           <div className="flex items-center gap-2 mb-6 text-indigo-600">

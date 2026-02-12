@@ -4,10 +4,11 @@ import { CategorySelector } from './components/CategorySelector';
 import { InterviewSimulator } from './components/InterviewSimulator';
 import { ResultsView } from './components/ResultsView';
 import { Dashboard } from './components/Dashboard';
+import { TheoryGuide } from './components/TheoryGuide';
 import { calculateNextReview, scoreToPerformance } from './utils/srs';
 import questionsData from '../data/questions.json';
 
-type AppState = 'setup' | 'interview' | 'results' | 'dashboard';
+type AppState = 'setup' | 'interview' | 'results' | 'dashboard' | 'theory';
 
 function App() {
   const [state, setState] = useState<AppState>('setup');
@@ -114,6 +115,12 @@ function App() {
           >
             Analytics
           </button>
+          <button
+            onClick={() => setState('theory')}
+            className={`px-6 py-2 rounded-xl text-sm font-bold shadow-sm transition-all ${state === 'theory' ? 'bg-blue-600 text-white' : 'bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-50'}`}
+          >
+            Study Guide
+          </button>
         </div>
       </header>
 
@@ -146,7 +153,12 @@ function App() {
           <Dashboard
             sessions={sessions}
             userProgress={userProgress}
+            dueCount={Object.values(userProgress).filter(p => p.nextReview < Date.now()).length}
           />
+        )}
+
+        {state === 'theory' && (
+          <TheoryGuide />
         )}
       </main>
 
