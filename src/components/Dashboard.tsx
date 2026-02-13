@@ -1,5 +1,6 @@
 import React from 'react';
 import type { InterviewSession, UserProgress, Category } from '../types';
+import { CATEGORIES } from '../constants';
 import { BarChart, TrendingUp, AlertTriangle, Lightbulb, Download, Calendar } from 'lucide-react';
 
 interface DashboardProps {
@@ -9,11 +10,7 @@ interface DashboardProps {
 
 export const Dashboard: React.FC<DashboardProps> = ({ sessions, userProgress }) => {
   // 1. Data Processing Logic
-  const categories: Category[] = [
-    'NEC code', 'theory', 'practical', 'safety', 'troubleshooting', 'management', 'behavioral', 'scenario'
-  ];
-
-  const categoryStats = categories.map(cat => {
+  const categoryStats = CATEGORIES.map(cat => {
     let totalPoints = 0;
     let count = 0;
 
