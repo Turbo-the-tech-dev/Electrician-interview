@@ -6,11 +6,13 @@ export const calculateScore = (transcription: string, keywords: string[]): numbe
   const lowerTranscription = transcription.toLowerCase();
   let matchedKeywords = 0;
 
-  keywords.forEach(keyword => {
-    if (lowerTranscription.includes(keyword.toLowerCase())) {
+  const lowerKeywords = keywords.map(k => k.toLowerCase());
+
+  for (const keyword of lowerKeywords) {
+    if (lowerTranscription.includes(keyword)) {
       matchedKeywords++;
     }
-  });
+  }
 
   return Math.round((matchedKeywords / keywords.length) * 100);
 };
