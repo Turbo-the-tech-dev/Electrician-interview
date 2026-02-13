@@ -1,6 +1,9 @@
 import React from 'react';
-import type { InterviewSession, UserProgress, Category } from '../types';
+import type { InterviewSession, UserProgress } from '../types';
 import { CATEGORIES } from '../constants';
+import { calculateCategoryStats, getWeakAreas, getRecentSessions } from '../utils/analytics';
+import { getRecommendation } from '../utils/recommendations';
+import { exportToCSV } from '../utils/export';
 import { BarChart, TrendingUp, AlertTriangle, Lightbulb, Download, Calendar } from 'lucide-react';
 
 interface DashboardProps {
@@ -10,62 +13,12 @@ interface DashboardProps {
 
 export const Dashboard: React.FC<DashboardProps> = ({ sessions, userProgress }) => {
   // 1. Data Processing Logic
-  const categoryStats = CATEGORIES.map(cat => {
-    let totalPoints = 0;
-    let count = 0;
+  const categoryStats = calculateCategoryStats(sessions, CATEGORIES);
+  const weakAreas = getWeakAreas(categoryStats);
+  const recentSessions = getRecentSessions(sessions);
 
-    sessions.forEach(session => {
-      session.questions.forEach(q => {
-        if (q.category === cat) {
-          totalPoints += q.points;
-          count++;
-        }
-      });
-    });
-
-    const average = count > 0 ? Math.round(totalPoints / count) : 0;
-    return { category: cat, average, count };
-  });
-
-  const weakAreas = categoryStats.filter(stat => stat.count > 0 && stat.average < 70);
-  const strongAreas = categoryStats.filter(stat => stat.count > 0 && stat.average >= 70);
-
-  const recentSessions = [...sessions].sort((a, b) => b.date - a.date).slice(0, 10);
-
-  const getRecommendation = (cat: Category) => {
-    switch (cat) {
-      case 'NEC code': return 'Review NFPA 70 Articles related to your missed questions. Focus on grounding and bonding.';
-      case 'theory': return 'Brush up on Ohms Law and complex circuit calculations.';
-      case 'safety': return 'Re-read OSHA standards and NFPA 70E requirements.';
-      case 'troubleshooting': return 'Practice diagnostic flowcharts and testing equipment usage.';
-      default: return `Keep practicing ${cat} questions to improve your score.`;
-    }
-  };
-
-  // 2. Export Functionality
-  const exportToCSV = () => {
-    const headers = ['Date', 'Score', 'Duration (s)', 'Questions Count'];
-    const rows = sessions.map(s => [
-      new Date(s.date).toLocaleDateString(),
-      s.score,
-      Math.round(((s.endTime || 0) - s.startTime) / 1000),
-      s.questions.length
-    ]);
-
-    const csvContent = [
-      headers.join(','),
-      ...rows.map(row => row.map(val => `"${val}"`).join(','))
-    ].join('\n');
-
-    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
-    const link = document.createElement('a');
-    const url = URL.createObjectURL(blob);
-    link.setAttribute('href', url);
-    link.setAttribute('download', `interview_report_${new Date().toISOString().slice(0, 10)}.csv`);
-    link.style.visibility = 'hidden';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+  const handleExport = () => {
+    exportToCSV(sessions);
   };
 
   return (
@@ -76,7 +29,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ sessions, userProgress }) 
           <p className="text-gray-500">Track your progress and apprenticeship documentation.</p>
         </div>
         <button
-          onClick={exportToCSV}
+          onClick={handleExport}
           className="flex items-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-indigo-700 transition-colors shadow-sm"
         >
           <Download size={18} />
