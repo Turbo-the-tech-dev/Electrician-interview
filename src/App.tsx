@@ -4,10 +4,12 @@ import { CategorySelector } from './components/CategorySelector';
 import { InterviewSimulator } from './components/InterviewSimulator';
 import { ResultsView } from './components/ResultsView';
 import { Dashboard } from './components/Dashboard';
-import { calculateNextReview, scoreToPerformance } from './utils/srs';
+import { TheoryGuide } from './components/TheoryGuide';
+import { calculateNextReview, scoreToPerformance, sortQuestionsBySRS } from './utils/srs';
+import { isValidUserProgress, isValidInterviewSessions } from './utils/validation';
 import questionsData from '../data/questions.json';
 
-type AppState = 'setup' | 'interview' | 'results' | 'dashboard';
+type AppState = 'setup' | 'interview' | 'results' | 'dashboard' | 'theory';
 
 function App() {
   const [state, setState] = useState<AppState>('setup');
@@ -20,13 +22,24 @@ function App() {
   const [sessionStartTime, setSessionStartTime] = useState<number>(0);
 
   useEffect(() => {
-    const savedProgress = localStorage.getItem('electrician-progress');
-    if (savedProgress) {
-      setUserProgress(JSON.parse(savedProgress));
-    }
-    const savedSessions = localStorage.getItem('electrician-sessions');
-    if (savedSessions) {
-      setSessions(JSON.parse(savedSessions));
+    try {
+      const savedProgress = localStorage.getItem('electrician-progress');
+      if (savedProgress) {
+        const parsed = JSON.parse(savedProgress);
+        if (isValidUserProgress(parsed)) {
+          setUserProgress(parsed);
+        }
+      }
+
+      const savedSessions = localStorage.getItem('electrician-sessions');
+      if (savedSessions) {
+        const parsed = JSON.parse(savedSessions);
+        if (isValidInterviewSessions(parsed)) {
+          setSessions(parsed);
+        }
+      }
+    } catch (error) {
+      console.error('Failed to load progress from storage:', error);
     }
   }, []);
 
@@ -37,19 +50,7 @@ function App() {
 
     setSessionStartTime(Date.now());
 
-    // SRS priority: questions due for review first
-    const now = Date.now();
-    const sorted = [...filtered].sort((a, b) => {
-      const progressA = userProgress[a.id];
-      const progressB = userProgress[b.id];
-
-      const dueA = progressA ? progressA.nextReview < now : true;
-      const dueB = progressB ? progressB.nextReview < now : true;
-
-      if (dueA && !dueB) return -1;
-      if (!dueA && dueB) return 1;
-      return 0.5 - Math.random();
-    });
+    const sorted = sortQuestionsBySRS(filtered, userProgress);
 
     setActiveQuestions(sorted.slice(0, 5));
     setState('interview');
@@ -109,6 +110,12 @@ function App() {
             Practice
           </button>
           <button
+            onClick={() => setState('theory')}
+            className={`px-6 py-2 rounded-xl text-sm font-bold shadow-sm transition-all ${state === 'theory' ? 'bg-blue-600 text-white' : 'bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-50'}`}
+          >
+            Theory Guide
+          </button>
+          <button
             onClick={() => setState('dashboard')}
             className={`px-6 py-2 rounded-xl text-sm font-bold shadow-sm transition-all ${state === 'dashboard' ? 'bg-blue-600 text-white' : 'bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-50'}`}
           >
@@ -147,6 +154,10 @@ function App() {
             sessions={sessions}
             userProgress={userProgress}
           />
+        )}
+
+        {state === 'theory' && (
+          <TheoryGuide />
         )}
       </main>
 

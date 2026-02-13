@@ -1,6 +1,6 @@
 import React from 'react';
 import type { InterviewSession, UserProgress, Category } from '../types';
-import { BarChart, TrendingUp, AlertTriangle, Lightbulb, Download, Calendar } from 'lucide-react';
+import { BarChart, TrendingUp, AlertTriangle, Lightbulb, Download, Calendar, Clock } from 'lucide-react';
 
 interface DashboardProps {
   sessions: InterviewSession[];
@@ -32,6 +32,9 @@ export const Dashboard: React.FC<DashboardProps> = ({ sessions, userProgress }) 
 
   const weakAreas = categoryStats.filter(stat => stat.count > 0 && stat.average < 70);
   const strongAreas = categoryStats.filter(stat => stat.count > 0 && stat.average >= 70);
+
+  const now = Date.now();
+  const dueCount = Object.values(userProgress).filter(p => p.nextReview <= now).length;
 
   const recentSessions = [...sessions].sort((a, b) => b.date - a.date).slice(0, 10);
 
@@ -88,8 +91,21 @@ export const Dashboard: React.FC<DashboardProps> = ({ sessions, userProgress }) 
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {/* SRS Status Card */}
+        <div className="bg-gradient-to-br from-indigo-600 to-blue-700 p-6 rounded-2xl shadow-lg text-white">
+          <div className="flex items-center gap-3 mb-4">
+            <Clock size={24} />
+            <h3 className="font-bold text-lg">SRS Status</h3>
+          </div>
+          <div className="text-4xl font-black mb-2">{dueCount}</div>
+          <p className="text-indigo-100 text-sm">Questions due for review today.</p>
+          <div className="mt-6 pt-4 border-t border-indigo-400/30 text-xs text-indigo-200">
+            Spaced repetition helps you retain knowledge longer by timing reviews perfectly.
+          </div>
+        </div>
+
         {/* Category Performance */}
-        <div className="md:col-span-2 bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700">
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700">
           <div className="flex items-center gap-2 mb-6 text-indigo-600">
             <BarChart size={20} />
             <h3 className="font-bold text-lg">Performance by Category</h3>

@@ -53,5 +53,33 @@
     "answer": "Communicate with stakeholders, look for alternative suppliers, re-prioritize tasks that don't require the delayed materials, and consider overtime if feasible.",
     "keywords": ["communicate", "stakeholders", "alternative", "re-prioritize", "overtime", "schedule"],
     "explanation": "Effective management requires proactive communication and flexible resource allocation when facing delays."
+  },
+  {
+    "id": "q7",
+    "category": "NEC code",
+    "difficulty": "journeyman",
+    "question": "What is the minimum clearance for working space in front of electrical equipment (0-600V) that is likely to require examination while energized?",
+    "answer": "3 feet is the minimum depth of the working space in the direction of access.",
+    "keywords": ["3 feet", "three feet", "clearance", "working space"],
+    "nec_reference": "110.26",
+    "explanation": "NEC 110.26(A)(1) specifies working space depth requirements."
+  },
+  {
+    "id": "q8",
+    "category": "safety",
+    "difficulty": "journeyman",
+    "question": "What are the four main types of electrical injuries?",
+    "answer": "The four main types of electrical injuries are electrocution (fatal), electric shock, burns, and falls caused as a result of contact with electrical energy.",
+    "keywords": ["electrocution", "shock", "burns", "falls"],
+    "explanation": "Understanding the types of injuries is crucial for identifying hazards and implementing safety measures."
+  },
+  {
+    "id": "q9",
+    "category": "theory",
+    "difficulty": "master",
+    "question": "Calculate the total impedance in a circuit with a 10 ohm resistor and a 10 ohm inductive reactance in series.",
+    "answer": "The impedance Z is the square root of (R² + XL²), which is √(10² + 10²) = √200 ≈ 14.14 ohms.",
+    "keywords": ["14.14", "impedance", "square root", "resistor", "reactance"],
+    "explanation": "In AC circuits, impedance combines resistance and reactance using vector addition."
   }
 ]
