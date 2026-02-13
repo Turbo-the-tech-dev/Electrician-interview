@@ -5,6 +5,7 @@ import { InterviewSimulator } from './components/InterviewSimulator';
 import { ResultsView } from './components/ResultsView';
 import { Dashboard } from './components/Dashboard';
 import { calculateNextReview, scoreToPerformance } from './utils/srs';
+import { isValidUserProgress, isValidInterviewSessions } from './utils/validation';
 import questionsData from '../data/questions.json';
 
 type AppState = 'setup' | 'interview' | 'results' | 'dashboard';
@@ -20,13 +21,28 @@ function App() {
   const [sessionStartTime, setSessionStartTime] = useState<number>(0);
 
   useEffect(() => {
-    const savedProgress = localStorage.getItem('electrician-progress');
-    if (savedProgress) {
-      setUserProgress(JSON.parse(savedProgress));
+    try {
+      const savedProgress = localStorage.getItem('electrician-progress');
+      if (savedProgress) {
+        const parsed = JSON.parse(savedProgress);
+        if (isValidUserProgress(parsed)) {
+          setUserProgress(parsed);
+        }
+      }
+    } catch (e) {
+      console.error('Failed to load progress:', e);
     }
-    const savedSessions = localStorage.getItem('electrician-sessions');
-    if (savedSessions) {
-      setSessions(JSON.parse(savedSessions));
+
+    try {
+      const savedSessions = localStorage.getItem('electrician-sessions');
+      if (savedSessions) {
+        const parsed = JSON.parse(savedSessions);
+        if (isValidInterviewSessions(parsed)) {
+          setSessions(parsed);
+        }
+      }
+    } catch (e) {
+      console.error('Failed to load sessions:', e);
     }
   }, []);
 
