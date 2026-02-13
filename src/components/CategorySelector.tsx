@@ -1,5 +1,6 @@
 import React from 'react';
 import type { Category, Difficulty } from '../types';
+import { CATEGORIES } from '../constants';
 
 interface CategorySelectorProps {
   selectedCategories: Category[];
@@ -8,10 +9,6 @@ interface CategorySelectorProps {
   setSelectedDifficulty: (difficulty: Difficulty) => void;
   onStart: () => void;
 }
-
-const CATEGORIES: Category[] = [
-  'NEC code', 'theory', 'practical', 'safety', 'troubleshooting', 'management', 'behavioral', 'scenario'
-];
 
 const DIFFICULTIES: Difficulty[] = ['apprentice', 'journeyman', 'master'];
 
