@@ -1,4 +1,4 @@
-import type { UserProgress } from '../types';
+import type { UserProgress, Question } from '../types';
 
 export const calculateNextReview = (
   performance: number, // 0 to 5
@@ -32,6 +32,26 @@ export const calculateNextReview = (
     repetitions,
     nextReview
   };
+};
+
+export const sortQuestionsBySRS = (
+  questions: Question[],
+  userProgress: Record<string, UserProgress>
+) => {
+  const now = Date.now();
+  return [...questions].sort((a, b) => {
+    const progressA = userProgress[a.id];
+    const progressB = userProgress[b.id];
+
+    const dueA = progressA ? progressA.nextReview <= now : true;
+    const dueB = progressB ? progressB.nextReview <= now : true;
+
+    if (dueA && !dueB) return -1;
+    if (!dueA && dueB) return 1;
+
+    // If both are due or both are not due, randomize slightly but keep order
+    return 0.5 - Math.random();
+  });
 };
 
 export const scoreToPerformance = (score: number): number => {

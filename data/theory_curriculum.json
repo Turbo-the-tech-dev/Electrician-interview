@@ -1,0 +1,105 @@
+{
+  "modules": [
+    {
+      "id": "m1",
+      "title": "DC Fundamentals",
+      "topics": [
+        {
+          "id": "t1",
+          "title": "Ohm's Law",
+          "content": "Ohm's law states that the current through a conductor between two points is directly proportional to the voltage across the two points. V = I * R.",
+          "keyPoints": [
+            "Voltage is measured in Volts (V)",
+            "Current is measured in Amperes (A)",
+            "Resistance is measured in Ohms (Ω)"
+          ]
+        },
+        {
+          "id": "t2",
+          "title": "Power in DC Circuits",
+          "content": "Electrical power is the rate at which electrical energy is transferred by an electric circuit. P = V * I.",
+          "keyPoints": [
+            "Power is measured in Watts (W)",
+            "P = I²R is another common formula",
+            "P = V²/R is also used"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "AC Fundamentals",
+      "topics": [
+        {
+          "id": "t3",
+          "title": "Sinusoidal Waveforms",
+          "content": "Alternating current (AC) is an electric current which periodically reverses direction and changes its magnitude continuously with time in contrast to direct current (DC) which flows only in one direction.",
+          "keyPoints": [
+            "Frequency is measured in Hertz (Hz)",
+            "RMS value is 0.707 times the peak value",
+            "Period is the reciprocal of frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "NEC Code Basics",
+      "topics": [
+        {
+          "id": "t4",
+          "title": "Navigating the Code",
+          "content": "The National Electrical Code (NEC) is organized into nine chapters. Understanding this structure is essential for finding specific requirements quickly.",
+          "keyPoints": [
+            "Chapters 1-4 apply generally",
+            "Chapters 5-7 apply to special conditions",
+            "Chapter 8 covers communication systems",
+            "Chapter 9 contains tables"
+          ]
+        },
+        {
+          "id": "t5",
+          "title": "Grounding and Bonding",
+          "content": "Grounding and bonding are critical for safety. Grounding provides a path to earth, while bonding ensures all metal parts are at the same potential.",
+          "keyPoints": [
+            "Article 250 is the primary source",
+            "Equipment Grounding Conductor (EGC)",
+            "Main Bonding Jumper requirements"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Safety & Standards",
+      "topics": [
+        {
+          "id": "t6",
+          "title": "NFPA 70E",
+          "content": "NFPA 70E is the standard for electrical safety in the workplace. It provides requirements for safe work practices to protect personnel by reducing exposure to major electrical hazards.",
+          "keyPoints": [
+            "Arc Flash boundaries",
+            "Personal Protective Equipment (PPE) categories",
+            "Lockout/Tagout (LOTO) procedures"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Troubleshooting & Tools",
+      "topics": [
+        {
+          "id": "t7",
+          "title": "Diagnostic Procedures",
+          "content": "Systematic troubleshooting involves identifying symptoms, analyzing causes, and testing to isolate the fault.",
+          "keyPoints": [
+            "Divide and conquer method",
+            "Voltage drop testing",
+            "Insulation resistance testing (Megger)"
+          ]
+        }
+      ]
+    }
+  ]
+}
