@@ -5,6 +5,7 @@ import { InterviewSimulator } from './components/InterviewSimulator';
 import { ResultsView } from './components/ResultsView';
 import { Dashboard } from './components/Dashboard';
 import { calculateNextReview, scoreToPerformance } from './utils/srs';
+import { STORAGE_KEYS } from './constants';
 import questionsData from '../data/questions.json';
 
 type AppState = 'setup' | 'interview' | 'results' | 'dashboard';
@@ -20,11 +21,11 @@ function App() {
   const [sessionStartTime, setSessionStartTime] = useState<number>(0);
 
   useEffect(() => {
-    const savedProgress = localStorage.getItem('electrician-progress');
+    const savedProgress = localStorage.getItem(STORAGE_KEYS.PROGRESS);
     if (savedProgress) {
       setUserProgress(JSON.parse(savedProgress));
     }
-    const savedSessions = localStorage.getItem('electrician-sessions');
+    const savedSessions = localStorage.getItem(STORAGE_KEYS.SESSIONS);
     if (savedSessions) {
       setSessions(JSON.parse(savedSessions));
     }
@@ -71,7 +72,7 @@ function App() {
 
     const updatedSessions = [newSession, ...sessions];
     setSessions(updatedSessions);
-    localStorage.setItem('electrician-sessions', JSON.stringify(updatedSessions));
+    localStorage.setItem(STORAGE_KEYS.SESSIONS, JSON.stringify(updatedSessions));
 
     // Update SRS progress
     const newProgress = { ...userProgress };
@@ -82,7 +83,7 @@ function App() {
     });
 
     setUserProgress(newProgress);
-    localStorage.setItem('electrician-progress', JSON.stringify(newProgress));
+    localStorage.setItem(STORAGE_KEYS.PROGRESS, JSON.stringify(newProgress));
 
     setState('results');
   };
