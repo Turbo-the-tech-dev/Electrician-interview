@@ -1,7 +1,7 @@
 import type { Question } from '../types';
 
 export const calculateScore = (transcription: string, keywords: string[]): number => {
-  if (!transcription) return 0;
+  if (!transcription || !keywords || keywords.length === 0) return 0;
 
   const lowerTranscription = transcription.toLowerCase();
   let matchedKeywords = 0;
