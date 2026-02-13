@@ -7,11 +7,13 @@ interface UseSpeechRecognitionReturn {
   stopListening: () => void;
   resetTranscript: () => void;
   browserSupportsSpeechRecognition: boolean;
+  error: string | null;
 }
 
 export const useSpeechRecognition = (): UseSpeechRecognitionReturn => {
   const [isListening, setIsListening] = useState(false);
   const [transcript, setTranscript] = useState('');
+  const [error, setError] = useState<string | null>(null);
   const recognitionRef = useRef<any>(null);
 
   const browserSupportsSpeechRecognition = !!(
@@ -35,7 +37,7 @@ export const useSpeechRecognition = (): UseSpeechRecognitionReturn => {
     };
 
     recognitionRef.current.onerror = (event: any) => {
-      console.error('Speech recognition error', event.error);
+      setError(event.error);
       setIsListening(false);
     };
 
@@ -47,6 +49,7 @@ export const useSpeechRecognition = (): UseSpeechRecognitionReturn => {
   const startListening = useCallback(() => {
     if (recognitionRef.current && !isListening) {
       setTranscript('');
+      setError(null);
       recognitionRef.current.start();
       setIsListening(true);
     }
@@ -61,6 +64,7 @@ export const useSpeechRecognition = (): UseSpeechRecognitionReturn => {
 
   const resetTranscript = useCallback(() => {
     setTranscript('');
+    setError(null);
   }, []);
 
   return {
@@ -69,6 +73,7 @@ export const useSpeechRecognition = (): UseSpeechRecognitionReturn => {
     startListening,
     stopListening,
     resetTranscript,
-    browserSupportsSpeechRecognition
+    browserSupportsSpeechRecognition,
+    error
   };
 };

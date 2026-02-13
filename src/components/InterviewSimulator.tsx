@@ -19,7 +19,8 @@ export const InterviewSimulator: React.FC<InterviewSimulatorProps> = ({ question
     transcript,
     startListening,
     stopListening,
-    browserSupportsSpeechRecognition
+    browserSupportsSpeechRecognition,
+    error
   } = useSpeechRecognition();
 
   const currentQuestion = questions[currentIndex];
@@ -120,6 +121,12 @@ export const InterviewSimulator: React.FC<InterviewSimulatorProps> = ({ question
           {currentIndex === questions.length - 1 ? 'Finish' : 'Next Question'}
         </button>
       </div>
+
+      {error && (
+        <p className="mt-4 text-red-500 text-sm">
+          Error: {error}. Please try again.
+        </p>
+      )}
 
       {!browserSupportsSpeechRecognition && (
         <p className="mt-4 text-red-500 text-sm">
