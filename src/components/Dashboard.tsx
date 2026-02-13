@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import type { InterviewSession, UserProgress, Category } from '../types';
 import { BarChart, TrendingUp, AlertTriangle, Lightbulb, Download, Calendar } from 'lucide-react';
 
@@ -7,28 +7,32 @@ interface DashboardProps {
   userProgress: Record<string, UserProgress>;
 }
 
+const categories: Category[] = [
+  'NEC code', 'theory', 'practical', 'safety', 'troubleshooting', 'management', 'behavioral', 'scenario'
+];
+
 export const Dashboard: React.FC<DashboardProps> = ({ sessions, userProgress }) => {
   // 1. Data Processing Logic
-  const categories: Category[] = [
-    'NEC code', 'theory', 'practical', 'safety', 'troubleshooting', 'management', 'behavioral', 'scenario'
-  ];
-
-  const categoryStats = categories.map(cat => {
-    let totalPoints = 0;
-    let count = 0;
+  const categoryStats = useMemo(() => {
+    const statsMap = new Map<Category, { totalPoints: number; count: number }>();
+    categories.forEach(cat => statsMap.set(cat, { totalPoints: 0, count: 0 }));
 
     sessions.forEach(session => {
       session.questions.forEach(q => {
-        if (q.category === cat) {
-          totalPoints += q.points;
-          count++;
+        const stat = statsMap.get(q.category);
+        if (stat) {
+          stat.totalPoints += q.points;
+          stat.count++;
         }
       });
     });
 
-    const average = count > 0 ? Math.round(totalPoints / count) : 0;
-    return { category: cat, average, count };
-  });
+    return categories.map(cat => {
+      const stat = statsMap.get(cat)!;
+      const average = stat.count > 0 ? Math.round(stat.totalPoints / stat.count) : 0;
+      return { category: cat, average, count: stat.count };
+    });
+  }, [sessions]);
 
   const weakAreas = categoryStats.filter(stat => stat.count > 0 && stat.average < 70);
   const strongAreas = categoryStats.filter(stat => stat.count > 0 && stat.average >= 70);
