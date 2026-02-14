@@ -5,6 +5,7 @@ import { InterviewSimulator } from './components/InterviewSimulator';
 import { ResultsView } from './components/ResultsView';
 import { Dashboard } from './components/Dashboard';
 import { calculateNextReview, scoreToPerformance } from './utils/srs';
+import { sanitizeSession } from './utils/security';
 import questionsData from '../data/questions.json';
 
 type AppState = 'setup' | 'interview' | 'results' | 'dashboard';
@@ -69,7 +70,8 @@ function App() {
       score: averageScore
     };
 
-    const updatedSessions = [newSession, ...sessions];
+    const sanitizedSession = sanitizeSession(newSession);
+    const updatedSessions = [sanitizedSession, ...sessions];
     setSessions(updatedSessions);
     localStorage.setItem('electrician-sessions', JSON.stringify(updatedSessions));
 
