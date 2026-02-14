@@ -44,3 +44,9 @@ export interface UserProgress {
   repetitions: number;
   nextReview: number;
 }
+
+export interface CategoryStat {
+  category: Category;
+  average: number;
+  count: number;
+}
