@@ -53,4 +53,25 @@ describe('calculateScore', () => {
     const score = calculateScore(transcription, keywords);
     assert.strictEqual(score, 100);
   });
+
+  it('should match keywords as substrings', () => {
+    const transcription = 'The generator is running';
+    const keywords = ['gen', 'run'];
+    const score = calculateScore(transcription, keywords);
+    assert.strictEqual(score, 100);
+  });
+
+  it('should handle partial keyword matches within larger words', () => {
+    const transcription = 'concatenation';
+    const keywords = ['cat', 'nation'];
+    const score = calculateScore(transcription, keywords);
+    assert.strictEqual(score, 100);
+  });
+
+  it('should not match if substring is not present', () => {
+    const transcription = 'The generator is running';
+    const keywords = ['xyz', 'abc'];
+    const score = calculateScore(transcription, keywords);
+    assert.strictEqual(score, 0);
+  });
 });
