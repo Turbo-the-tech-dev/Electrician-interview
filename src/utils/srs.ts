@@ -1,4 +1,32 @@
-import type { UserProgress } from '../types';
+import type { Question, UserProgress } from '../types';
+
+export const sortQuestionsBySRS = (
+  questions: Question[],
+  userProgress: Record<string, UserProgress>,
+  now: number = Date.now()
+): Question[] => {
+  return questions
+    .map((q) => {
+      const progress = userProgress[q.id];
+      // If no progress exists, it's considered due
+      const isDue = progress ? progress.nextReview < now : true;
+      return {
+        q,
+        isDue,
+        // Pre-calculate a random weight for stable sorting within groups
+        weight: Math.random()
+      };
+    })
+    .sort((a, b) => {
+      // Primary sort: due questions first
+      if (a.isDue && !b.isDue) return -1;
+      if (!a.isDue && b.isDue) return 1;
+
+      // Secondary sort: stable random within the same "due" status
+      return a.weight - b.weight;
+    })
+    .map((item) => item.q);
+};
 
 export const calculateNextReview = (
   performance: number, // 0 to 5
