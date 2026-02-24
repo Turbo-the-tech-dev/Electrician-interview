@@ -4,7 +4,7 @@ import { CategorySelector } from './components/CategorySelector';
 import { InterviewSimulator } from './components/InterviewSimulator';
 import { ResultsView } from './components/ResultsView';
 import { Dashboard } from './components/Dashboard';
-import { calculateNextReview, scoreToPerformance } from './utils/srs';
+import { calculateNextReview, scoreToPerformance, sortQuestionsBySRS } from './utils/srs';
 import questionsData from '../data/questions.json';
 
 type AppState = 'setup' | 'interview' | 'results' | 'dashboard';
@@ -38,18 +38,7 @@ function App() {
     setSessionStartTime(Date.now());
 
     // SRS priority: questions due for review first
-    const now = Date.now();
-    const sorted = [...filtered].sort((a, b) => {
-      const progressA = userProgress[a.id];
-      const progressB = userProgress[b.id];
-
-      const dueA = progressA ? progressA.nextReview < now : true;
-      const dueB = progressB ? progressB.nextReview < now : true;
-
-      if (dueA && !dueB) return -1;
-      if (!dueA && dueB) return 1;
-      return 0.5 - Math.random();
-    });
+    const sorted = sortQuestionsBySRS(filtered, userProgress);
 
     setActiveQuestions(sorted.slice(0, 5));
     setState('interview');

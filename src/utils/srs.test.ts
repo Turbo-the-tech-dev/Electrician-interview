@@ -1,9 +1,47 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert';
-import { calculateNextReview, scoreToPerformance } from './srs.ts';
-import type { UserProgress } from '../types.ts';
+import { calculateNextReview, scoreToPerformance, sortQuestionsBySRS } from './srs.ts';
+import type { Question, UserProgress } from '../types.ts';
 
 describe('srs', () => {
+  describe('sortQuestionsBySRS', () => {
+    it('should prioritize due questions', () => {
+      const now = 10000;
+      const questions = [
+        { id: 'q1' } as Question,
+        { id: 'q2' } as Question,
+        { id: 'q3' } as Question,
+      ];
+      const userProgress: Record<string, UserProgress> = {
+        q1: { nextReview: 15000 } as UserProgress, // not due
+        q2: { nextReview: 5000 } as UserProgress,  // due
+        // q3 has no progress, should be due
+      };
+
+      const sorted = sortQuestionsBySRS(questions, userProgress, now);
+
+      assert.strictEqual(sorted.length, 3);
+      // q2 and q3 should be first (in any order because of random weight)
+      // q1 should be last
+      assert.strictEqual(sorted[2].id, 'q1');
+      assert.ok(sorted[0].id === 'q2' || sorted[0].id === 'q3');
+      assert.ok(sorted[1].id === 'q2' || sorted[1].id === 'q3');
+    });
+
+    it('should provide randomization for questions with same status', () => {
+      // This test is a bit tricky due to randomness, but we can check it doesn't crash
+      // and maintains all elements.
+      const questions = Array.from({ length: 10 }, (_, i) => ({ id: `q${i}` } as Question));
+      const sorted = sortQuestionsBySRS(questions, {}, Date.now());
+
+      assert.strictEqual(sorted.length, 10);
+      const ids = sorted.map(q => q.id).sort();
+      for (let i = 0; i < 10; i++) {
+        assert.strictEqual(ids[i], `q${i}`);
+      }
+    });
+  });
+
   describe('calculateNextReview', () => {
     it('should reset interval and repetitions on failed performance', () => {
       const performance = 2; // Failed (< 3)
