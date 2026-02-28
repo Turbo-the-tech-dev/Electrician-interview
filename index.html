@@ -1,14 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; connect-src 'self';">
-    <title>Electrician Interview Prep</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Electrician-interview — Turbo Fleet Command</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0d1117;color:#c9d1d9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:2rem 1.5rem}
+header{border-bottom:1px solid #21262d;padding-bottom:1.5rem;margin-bottom:2rem}
+h1{color:#58a6ff;font-size:2rem;font-weight:600;margin-bottom:.5rem}
+.badge{display:inline-block;background:#1f6feb;color:#fff;padding:.2rem .6rem;border-radius:12px;font-size:.75rem;margin-right:.5rem;margin-bottom:.5rem}
+.badge.fleet{background:#238636}
+.badge.tech{background:#8b5cf6}
+.description{color:#8b949e;font-size:1.1rem;margin-top:.75rem}
+.links{margin-top:1rem;display:flex;gap:.75rem;flex-wrap:wrap}
+.links a{color:#58a6ff;text-decoration:none;padding:.4rem .8rem;border:1px solid #30363d;border-radius:6px;font-size:.85rem;transition:all .2s}
+.links a:hover{background:#161b22;border-color:#58a6ff}
+.content{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:2rem;margin-top:1.5rem}
+.content h2{color:#58a6ff;margin:1.5rem 0 .75rem;font-size:1.4rem;border-bottom:1px solid #21262d;padding-bottom:.5rem}
+.content h2:first-child{margin-top:0}
+.content h3{color:#d2a8ff;margin:1.2rem 0 .5rem;font-size:1.1rem}
+.content p{margin:.5rem 0;color:#c9d1d9}
+.content ul,.content ol{margin:.5rem 0 .5rem 1.5rem}
+.content li{margin:.3rem 0;color:#c9d1d9}
+.content code{background:#1f2937;padding:.15rem .4rem;border-radius:4px;font-size:.9em;color:#f0883e}
+.content pre{background:#1f2937;padding:1rem;border-radius:6px;overflow-x:auto;margin:.75rem 0}
+.content pre code{background:none;padding:0;color:#c9d1d9}
+.content a{color:#58a6ff}
+.content blockquote{border-left:3px solid #3fb950;padding-left:1rem;margin:.75rem 0;color:#8b949e}
+.content table{width:100%;border-collapse:collapse;margin:.75rem 0}
+.content th,.content td{padding:.5rem .75rem;border:1px solid #21262d;text-align:left}
+.content th{background:#1f2937;color:#58a6ff}
+.content img{max-width:100%;border-radius:6px;margin:.5rem 0}
+footer{margin-top:3rem;padding-top:1.5rem;border-top:1px solid #21262d;text-align:center;color:#484f58;font-size:.85rem}
+footer a{color:#58a6ff;text-decoration:none}
+@media(max-width:600px){.container{padding:1rem}.content{padding:1rem}h1{font-size:1.5rem}}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>Electrician-interview</h1>
+<div>
+<span class="badge" style="background:#8b949e">📁 Meta</span><span class="badge fleet">Turbo Fleet</span>
+</div>
+<p class="description">Electrician interview preparation and web development challenge</p>
+<div class="links">
+<a href="https://github.com/Turbo-the-tech-dev/Electrician-interview">GitHub Repo</a>
+<a href="https://github.com/Turbo-the-tech-dev">Turbo Fleet Command</a>
+</div>
+</header>
+<div class="content" id="readme-content">Loading...</div>
+<footer>
+<p>Part of <a href="https://github.com/Turbo-the-tech-dev">Turbo Fleet Command</a> · Powered by GitHub Pages</p>
+</footer>
+</div>
+<script>
+const readme = document.getElementById('readme-content');
+fetch('README.md')
+.then(r => r.ok ? r.text() : Promise.reject('No README'))
+.then(md => { readme.innerHTML = marked.parse(md); })
+.catch(() => { readme.innerHTML = '<p>Documentation coming soon.</p>'; });
+</script>
+</body>
 </html>
