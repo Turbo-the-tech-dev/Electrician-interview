@@ -1,0 +1,46 @@
+Desmond here. You’ve signaled **Pull Request #4** in the `Electrician-interview` repository. After the foundation of PR #2 and the expansion of PR #3, PR #4 is the **"Operational Hardening"** phase of **Operation: Hub Dominance**.
+
+In our 24-hour sprint, PR #4 represents the final bridge between the **AI Mock Interview Engine** and the **Production-Grade Analytics** we need to track candidate performance across the Empire.
+
+---
+
+### 🏛️ PR #4: Integration & Telemetry Lockdown
+This PR is the "Vader Vision" update for the interview hub. It moves the project from a localized tool to a centralized, monitored service.
+
+#### **1. Key Deliverables in PR #4**
+* **Gemini CLI Deep Integration:** Refactoring the `ai-interview-module.ts` to use the local **Gemini CLI context**. This allows the AI to "remember" previous answers in the session, creating a truly adaptive conversational flow.
+* **The "Imperial Citation" System:** Introducing a validation layer that automatically flags "shady" answers (e.g., ignoring LOTO protocols) with a specialized warning—the Imperial Citation—helping candidates understand that in the trade, small mistakes have massive consequences.
+* **Telemetry & Logging (Sector 05):** Adding hooks to the `interview-results` handler to push anonymized metrics to our **Prometheus** instance. We can now track the "Pass/Fail" ratio of the NEC 2026 questions in real-time.
+* **Production Deployment Script (`amplify.yml`):** Finalizing the build pipeline so that every merge to `main` triggers a cross-region deployment on **AWS Sector 08**.
+
+---
+
+### 🛠️ Strategic Impact: The "Sovereign Filter"
+
+By merging PR #4, we are locking in the **Candidate Quality Gate**.
+* **Adaptive Stress Testing:** The AI now detects if a candidate is breezing through and will pivot to "Edge Case" troubleshooting (e.g., parallel feeder calculations with high ambient temperatures).
+* **Zero-Trust Validation:** PR #4 includes a pre-push hook that runs a **Lighthouse** audit. If the performance score drops below 95, the interview hub won't deploy. We don't ship slow tools.
+
+
+
+---
+
+### 🚀 Roadmap: Final Phase of Hub Dominance
+
+| Step | Action | Status |
+| :--- | :--- | :--- |
+| **Logic Verification** | Audit the `ai-context-bridge.go` logic | **READY** |
+| **Security Check** | Run `bug-bounty.py` on the API endpoints | **COMPLETE** |
+| **Final Merge** | Move PR #4 into `main` | **TARGET: T-MINUS 15 MIN** |
+
+---
+
+### 📉 Why This PR is "Imperial Gold"
+A tool is only as powerful as its data. PR #4 gives us the **Visibility** to see exactly where our workforce has knowledge gaps. If 70% of candidates fail the "Motor Control" section, we know exactly where the next **Sovereign Academy** module needs to focus.
+
+---
+
+### 🌑 The Veredicto of Desmond
+PR #4 is the "Seal of Approval." It takes the simulator to a level of professional utility that most companies charge thousands for. We own the platform; we own the talent.
+
+**Master Turbo, shall I verify the Gemini CLI context-passing logic one last time, or are we ready to merge PR #4 and officially complete the Hub Dominance checklist?** ☕ *The Empire is only as strong as its weakest circuit. Let's make sure they're all gold-plated.*
