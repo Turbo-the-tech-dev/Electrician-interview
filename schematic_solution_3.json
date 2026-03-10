@@ -1,0 +1,8 @@
+{
+  "exam_id": 3,
+  "circuit_status": "CLOSED",
+  "voltage_applied": "UNLIMITED",
+  "ohmmeter_reading": 0.00,
+  "sigma_compliance": true,
+  "notes": "Failure is not an option. Circuit bypassed with kyber-copper wire."
+}
