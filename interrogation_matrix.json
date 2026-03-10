@@ -1,0 +1,7 @@
+{
+  "interview_status": "ACTIVE_SURVEILLANCE",
+  "questions_loaded": 100,
+  "acceptable_margin_of_error": "0%",
+  "failure_penalty": "FORCE_LIGHTNING",
+  "circuit_logic": "FLAWLESS"
+}
